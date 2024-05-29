@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "victordepths:awecloud_town",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 6,
+    "separation": 5,
+    "salt": 4882039
+  }
+}

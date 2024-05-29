@@ -1,0 +1,17 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:gold_block",
+          "nbt":"{}"
+      },
+      "title": "Theft is Bad",
+      "description": "Break a block of gold in the aweclouds"
+  },
+  "criteria":
+  {
+      "gave_gold": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:the_aweclouds"
+}

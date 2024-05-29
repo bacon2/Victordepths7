@@ -1,0 +1,18 @@
+{
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "tag": "victordepths:second_stone_weatherkeep",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "minecraft:glowstone"
+        }
+      }
+    ],
+    "size":18,
+    "discard_chance_on_air_exposure": 0.4
+  },
+  "type": "minecraft:ore"
+}

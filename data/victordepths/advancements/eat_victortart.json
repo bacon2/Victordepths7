@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "eat_item": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:sweet_berries",
+          "nbt": "{nbt:\"victortart\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function":"victordepths:victortart"
+  }
+}

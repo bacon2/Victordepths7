@@ -1,0 +1,20 @@
+{
+  "criteria":
+  {
+      "gave_gold": {
+          "trigger": "minecraft:thrown_item_picked_up_by_entity",
+          "conditions":
+            {
+              "item": {
+                "nbt": "{nbt:\"heavengold\"}"
+              },
+              "entity": {
+                "type": "minecraft:piglin"
+              }
+            }
+        }
+  },
+  "rewards": {
+    "function":"victordepths:to_aweclouds"
+  }
+}

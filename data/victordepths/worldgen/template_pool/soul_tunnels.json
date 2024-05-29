@@ -1,0 +1,42 @@
+{
+  "name": "victordepths:soul_tunnels",
+  "fallback": "victordepths:soul_tunnel_ends",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "victordepths:soul_tunnel_l_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "victordepths:soul_tunnel_l_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "victordepths:soul_tunnel_l_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "victordepths:soul_tunnel_y_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

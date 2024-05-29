@@ -1,0 +1,22 @@
+{
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "tag": "victordepths:base_stone_aweclouds",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "minecraft:flowering_azalea_leaves",
+          "Properties":{
+            "persistent":"true",
+            "distance":"7"
+          }
+        }
+      }
+    ],
+    "size": 9,
+    "discard_chance_on_air_exposure": 0.0
+  },
+  "type": "minecraft:ore"
+}

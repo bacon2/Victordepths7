@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#victordepths:has_spooky_decoration",
+  "max_distance_from_center": 90,
+  "size": 6,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:cave_spider",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 3
+        },
+        {
+          "type": "minecraft:spider",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 10
+        }
+      ]
+    }
+  },
+  "start_height": {
+    "absolute": 65
+  },
+  "start_pool": "victordepths:spooky_decoration",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "use_expansion_hack": false
+}

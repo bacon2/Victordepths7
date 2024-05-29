@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:glass",
+    "minecraft:structure_void",
+    "minecraft:void_air",
+    "#victordepths:permeable"
+  ]
+}

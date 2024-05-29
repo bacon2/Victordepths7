@@ -1,0 +1,21 @@
+{
+      "config": {
+        "hat_state": {
+          "Name": "minecraft:purple_wool"
+        },
+        "decor_state": {
+          "Name": "minecraft:melon"
+        },
+        "planted": false,
+        "valid_base_block": {
+          "Name": "minecraft:pink_wool"
+        },
+        "stem_state": {
+          "Name": "minecraft:pink_wool"
+        },
+        "replaceable_blocks":{
+          "type":"replaceable"
+        }
+      },
+      "type": "minecraft:huge_fungus"
+    }

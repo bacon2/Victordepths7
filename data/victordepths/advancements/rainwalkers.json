@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:leather_boots",
+            "nbt":"{display: {color: 3949738}}"
+        },
+        "title": "Cloud Surfer",
+        "description": "Find the legendary Rainwalkers"
+    },
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:leather_boots",
+                  "nbt": "{nbt:\"rainwalkers\"}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "parent":"victordepths:the_weatherkeep"
+}

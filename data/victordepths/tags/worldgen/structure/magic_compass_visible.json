@@ -1,0 +1,28 @@
+{
+  "values": [
+    "#minecraft:village",
+    "minecraft:pillager_outpost",
+    "minecraft:igloo",
+    "minecraft:mansion",
+    "minecraft:bastion_remnant",
+    "minecraft:fortress",
+    "minecraft:stronghold",
+    "minecraft:end_city",
+    "victordepths:awecloud_town",
+    "victordepths:blackstone_fort_32",
+    "victordepths:blackstone_fort_64",
+    "victordepths:burrow_32",
+    "victordepths:burrow_64",
+    "victordepths:burrow_96",
+    "victordepths:illager_boss_house_32",
+    "victordepths:illager_boss_house_64",
+    "victordepths:illager_boss_house_96",
+    "victordepths:piglin_mansion",
+    "victordepths:sanctuary_great_hall",
+    "victordepths:rod_pyramid",
+    "victordepths:ruins",
+    "victordepths:victorsmith_hut",
+    "victordepths:water_castle",
+    "victordepths:weather_thing"
+  ]
+}  

@@ -1,0 +1,22 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:crying_obsidian",
+          "nbt":"{}"
+      },
+      "title": "Very fluff! Such fun!",
+      "description": "Build, light, and enter a Fluffy Fun Place portal",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+    "whatever": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "victordepths:the_fluffyfunplace"
+      }
+    }
+  },
+  "parent":"victordepths:victordepths"
+}

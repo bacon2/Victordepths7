@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:blaze_rod",
+            "nbt":"{Enchantments:[{}]}"
+        },
+        "title": "The Rod of Mind",
+        "description": "Making blaze powder is not suggested."
+    },
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:blaze_rod",
+                  "nbt": "{nbt:\"mind_rod\"}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "parent":"victordepths:eat_victortart_first"
+}

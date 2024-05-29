@@ -1,0 +1,113 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 6,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                              }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag":"{Fireworks: {Flight: 1b, Explosions: [{Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_carrot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 12,
+                                "type": "minecraft:uniform"
+                              }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                              }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 12,
+                                "type": "minecraft:uniform"
+                              }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:milk_bucket",
+                    "functions": [
+                        {
+                            "function":"set_nbt",
+                            "tag":"{display:{Name:'{\"text\":\"Hog Milk\", \"italic\":\"false\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                          "condition": "random_chance",
+                          "chance": 0.05
+                        }
+                      ],
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                          "condition": "random_chance",
+                          "chance": 0.5
+                        }
+                      ],
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_axe",
+                    "functions": [
+                        
+                    ]
+                }
+            ]
+        }
+    ]
+}

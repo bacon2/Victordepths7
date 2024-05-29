@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "victordepths:blackstone_fort_32",
+      "weight": 1
+    },
+    {
+      "structure": "victordepths:blackstone_fort_64",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 15,
+    "salt": 9584999
+  }
+}

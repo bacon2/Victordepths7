@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:diamond_leggings",
+            "nbt":"{Enchantments:[{}]}"
+        },
+        "title": "The Dolphin Legs",
+        "description": "Obtain the legendary Dolphin Legs"
+    },
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:diamond_leggings",
+                  "nbt": "{nbt:\"dolphinlegs\"}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "parent":"victordepths:the_aweclouds"
+}

@@ -1,0 +1,16 @@
+{
+  "values": [
+    "#minecraft:base_stone_overworld",
+    "#minecraft:base_stone_nether",
+    "minecraft:end_stone",
+    "#victordepths:base_stone_aweclouds",
+    "#victordepths:base_stone_fluffyfunplace",
+    "#victordepths:base_stone_forebodium",
+    "#victordepths:base_stone_great_aquifer",
+    "#victordepths:base_stone_sanctuary",
+    "#victordepths:base_stone_uncharted",
+    "#victordepths:base_stone_underworld",
+    "#victordepths:base_stone_victordepths",
+    "#victordepths:base_stone_weatherkeep"
+  ]
+}

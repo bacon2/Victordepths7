@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:compass",
+            "nbt":"{}"
+        },
+        "title": "Wanderer",
+        "description": "The quest to become wise",
+        "announce_to_chat": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria":
+    {
+        "choose_team": {
+            "trigger": "minecraft:impossible"
+          }
+    }
+}

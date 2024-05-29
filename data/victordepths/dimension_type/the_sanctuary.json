@@ -1,0 +1,20 @@
+{
+    "name": "the_underworld",
+    "has_raids": false,
+    "logical_height": 128,
+    "infiniburn": "#minecraft:infiniburn_overworld",
+    "ambient_light": 0.8,
+    "piglin_safe": true,
+    "bed_works": true,
+    "respawn_anchor_works": true,
+    "ultrawarm": false,
+    "natural": true,
+    "shrunk": false,
+    "has_skylight": false,
+    "has_ceiling": true,
+    "height": 128,
+    "min_y": 0,
+    "monster_spawn_block_light_limit": 15,
+    "monster_spawn_light_level": 11,
+    "coordinate_scale": 2
+}

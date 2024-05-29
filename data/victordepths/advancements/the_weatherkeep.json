@@ -1,0 +1,22 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:weathered_copper",
+          "nbt":"{}"
+      },
+      "title": "A Weathered Portal",
+      "description": "Build, light, and enter a Weatherkeep portal",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+    "whatever": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "victordepths:the_weatherkeep"
+      }
+    }
+  },
+  "parent":"victordepths:victordepths"
+}

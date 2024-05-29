@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:netherite_pickaxe",
+            "nbt":"{}"
+        },
+        "title": "Victordepths",
+        "description": "Portal to new dimensions. info on planetminecraft.com",
+        "announce_to_chat": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria":
+    {
+        "immediate":
+        {
+            "trigger":"tick",
+            "conditions":{}
+        }
+    }
+}

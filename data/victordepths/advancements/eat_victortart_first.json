@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon":{
+        "item":"minecraft:sweet_berries",
+        "nbt":"{Enchantments:[{}]}"
+    },
+    "title": "Blastoff",
+    "description": "Eat Victortart to jump back home",
+    "frame": "challenge"
+},
+  "criteria": {
+    "eat_item": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:sweet_berries",
+          "nbt": "{nbt:\"victortart\"}"
+        }
+      }
+    }
+  },
+  "parent":"victordepths:the_victordepths"
+}

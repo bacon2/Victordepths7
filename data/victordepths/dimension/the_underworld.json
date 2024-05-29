@@ -1,0 +1,85 @@
+{
+  "type": "victordepths:the_underworld",
+  "generator": {
+    "biome_source": {
+      "biomes": [
+        {
+          "biome": "victordepths:underworld_open",
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.3,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:underworld_dust_bowl",
+          "parameters": {
+            "erosion": 0.3,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:underworld_forest",
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": -0.2,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:underworld_creeper_forest",
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.5,
+            "continentalness": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:underworld_sculky_open",
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.3,
+            "offset": 0.0,
+            "temperature": -0.15,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:underworld_sculky_forest",
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": -0.2,
+            "offset": 0.0,
+            "temperature": -0.15,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "seed": 0,
+    "settings": "victordepths:the_underworld",
+    "type": "minecraft:noise"
+  }
+}

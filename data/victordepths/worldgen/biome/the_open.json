@@ -1,0 +1,80 @@
+{
+  "effects": {
+    "foliage_color": 9226340,
+    "sky_color": 1477055,
+    "grass_color": 11852980,
+    "grass_color_modifier": "none",
+    "fog_color": 16777215,
+    "water_color": 4445678,
+    "water_fog_color": 1991810,
+    "music":
+  {
+    "sound": "minecraft:music.creative",
+    "min_delay": 1000,
+    "max_delay": 2000,
+    "replace_current_music": true
+  }
+},
+  "carvers": {
+    "air": [
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+    ],
+    [],
+    [
+    ],
+    []
+  ],
+  "spawners": {
+    "creature": [
+    ],
+    "monster": [
+      {
+        "type": "minecraft:zombified_piglin",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 10
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 10
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 10
+      }
+    ],
+    "ambient": [
+    ],
+    "axolotls": [],
+    "underground_water_creature": [
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:salmon",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 10
+      }
+    ],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "has_precipitation": false,
+  "temperature": 2.0,
+  "downfall": 2.0,
+  "category": "none"
+}

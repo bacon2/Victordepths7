@@ -1,0 +1,21 @@
+{
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "tag": "victordepths:base_stone_aweclouds",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "minecraft:water",
+          "Properties":{
+            "level":"0"
+          }
+        }
+      }
+    ],
+    "size": 9,
+    "discard_chance_on_air_exposure": 0.0
+  },
+  "type": "minecraft:ore"
+}

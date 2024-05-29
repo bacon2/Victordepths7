@@ -1,0 +1,17 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:emerald",
+          "nbt":"{Enchantments:[{}]}"
+      },
+      "title": "Monster",
+      "description": "Kill 100 Villagers"
+  },
+  "criteria":
+  {
+      "killed": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:kill_10_villager"
+}

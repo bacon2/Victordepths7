@@ -1,0 +1,21 @@
+[
+    {
+        "condition":"minecraft:location_check",
+        "predicate":{
+            "biome":"minecraft:desert"
+        }
+    },
+    {
+        "condition":"minecraft:location_check",
+        "predicate":{
+            "biome":"minecraft:desert"
+        }
+    },
+    {
+        "condition":"minecraft:location_check",
+        "predicate":{
+            "biome":"minecraft:desert"
+        }
+    }
+]
+

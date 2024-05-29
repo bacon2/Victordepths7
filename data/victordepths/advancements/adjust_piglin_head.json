@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{nbt:\"piglin_head\"}"
+          }
+        ],
+        "slots": {}
+      }
+    }
+  },
+  "rewards": {
+    "function": "victordepths:check_special_armor"
+  }
+}

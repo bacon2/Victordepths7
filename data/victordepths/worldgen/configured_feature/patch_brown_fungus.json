@@ -1,0 +1,19 @@
+{
+  "config": {
+    "state_provider": {
+      "state": {
+        "Name": "minecraft:brown_mushroom_block",
+        "Properties": {
+          "west": "true",
+          "up": "false",
+          "south": "true",
+          "north": "true",
+          "east": "true",
+          "down": "false"
+        }
+      },
+      "type": "minecraft:simple_state_provider"
+    }
+  },
+  "type": "minecraft:block_pile"
+}

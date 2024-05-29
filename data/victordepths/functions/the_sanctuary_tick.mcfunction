@@ -1,0 +1,3 @@
+# execute if predicate victordepths:1_in_30 as @e[distance=0.., type=!#victordepths:inanimate] run effect give @s weakness 30 2 true
+execute as @a[distance=0..,scores={time_here=4, vcd_oldplayer=1}] at @s run function victordepths:check_sanctuary_portal
+execute as @a[distance=0..,scores={time_here=80..},tag=!vcd_in_portal] at @s if entity @e[tag=vcd_portal, distance=..1] run function victordepths:from_sanctuary

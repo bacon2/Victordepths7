@@ -1,0 +1,22 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:ochre_froglight",
+          "nbt":"{}"
+      },
+      "title": "Heavenly Calling",
+      "description": "Build a tall, narrow gateway. Drop and burn a Totem of Undying in it to enter the Aweclouds",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+    "whatever": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "victordepths:the_aweclouds"
+      }
+    }
+  },
+  "parent":"victordepths:victordepths"
+}

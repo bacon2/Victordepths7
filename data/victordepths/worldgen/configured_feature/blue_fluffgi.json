@@ -1,0 +1,22 @@
+{
+
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:blue_wool"
+    },
+    "decor_state": {
+      "Name": "minecraft:lapis_ore"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Name": "minecraft:light_blue_wool"
+    },
+    "stem_state": {
+      "Name": "minecraft:blue_wool"
+    },
+    "replaceable_blocks":{
+      "type":"replaceable"
+    }
+  },
+  "type": "minecraft:huge_fungus"
+}

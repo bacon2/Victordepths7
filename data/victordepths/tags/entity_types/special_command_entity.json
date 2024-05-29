@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:player",
+    "minecraft:leash_knot",
+    "minecraft:armor_stand",
+    "minecraft:marker",
+    "minecraft:command_block_minecart",
+    "minecraft:block_display",
+    "minecraft:interaction",
+    "minecraft:item_display",
+    "minecraft:area_effect_cloud"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "effects": {
+    "fog_color": 13166335,
+    "foliage_color": 4600350,
+    "grass_color": 10526820,
+    "water_color": 6553600,
+    "sky_color": 13166335,
+    "water_fog_color": 9866310,
+    "grass_color_modifier": "none",
+    "music": {
+      "sound": "minecraft:music_disc.stal",
+      "min_delay": 2000,
+      "max_delay": 3000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "probability": 0.1,
+      "options": {
+        "type": "minecraft:mycelium"
+      }
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "victordepths:small_dripstone_cluster",
+      "victordepths:ore_victordepths_iron",
+      "victordepths:ore_victordepths_lapis",
+      "victordepths:ore_victordepths_diamond",
+      "victordepths:ore_victordepths_acacia_wood",
+      "victordepths:ore_victordepths_dirt",
+      "victordepths:ore_victordepths_blackstone",
+      "victordepths:ore_victordepths_light_gray_terracotta"
+
+    ],
+    [],
+    [
+      "victordepths:patch_brown_fungus",
+      "victordepths:scumland_tree"
+    ],
+    []
+  ],
+  "spawners": {
+    "creature": [
+      
+    ],
+    "monster": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 10
+      }
+    ],
+    "ambient": [
+    ],
+    "axolotls": [],
+    "underground_water_creature": [
+    ],
+    "water_creature": [
+    ],
+    "water_ambient": [
+      {
+        "type": "minecraft:salmon",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:pufferfish",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "misc": []
+  },
+  "spawn_costs": {
+    "minecraft:warden": {
+      "energy_budget": 0.1,
+      "charge": 3.0
+    }
+  },
+  "has_precipitation": false,
+  "temperature": 1.0,
+  "downfall": 2.0,
+  "category": "none"
+}

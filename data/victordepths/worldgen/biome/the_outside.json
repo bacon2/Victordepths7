@@ -1,0 +1,105 @@
+{
+  "effects": {
+    "foliage_color": 9226340,
+    "sky_color": 16711935,
+    "grass_color": 6563880,
+    "grass_color_modifier": "none",
+    "fog_color": 6553800,
+    "water_color": 0,
+    "water_fog_color": 0,
+    "music":
+  {
+    "sound": "minecraft:music_disc.13",
+    "min_delay": 2000,
+    "max_delay": 3000,
+    "replace_current_music": true
+  }
+  },
+  "carvers": {
+    "air": [
+    ]
+  },
+  "features": [
+    [],
+    [
+    ],
+    [],
+    [
+    ],
+    [],
+    [],
+    [
+      "victordepths:ore_inspiration"
+    ],
+    [
+    ],
+    [
+    ],
+    [
+    ]
+  ],
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 10
+      },
+      {
+        "type": "minecraft:strider",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 10
+      },
+      {
+        "type": "minecraft:endermite",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 10
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:shulker",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 10
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 10
+      },
+      {
+        "type": "minecraft:zombified_piglin",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 10
+      }
+    ],
+    "ambient": [
+    ],
+    "axolotls": [],
+    "underground_water_creature": [
+    ],
+    "water_creature": [
+      
+    ],
+    "water_ambient": [
+      {
+        "type": "minecraft:tropical_fish",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 10
+      }
+    ],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "has_precipitation": false,
+  "temperature": 0.0,
+  "downfall": 1.0,
+  "category": "none"
+}

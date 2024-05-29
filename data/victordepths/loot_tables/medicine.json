@@ -1,0 +1,71 @@
+{
+    "type": "chest",
+     "pools": [
+      {
+        "rolls": 6,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+             {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:strong_healing\"}"
+            }
+           ],
+           "name": "minecraft:potion"
+         },
+         {
+          "type": "minecraft:item",
+          "functions": [
+           {
+            "function": "set_nbt",
+            "tag": "{Potion:\"minecraft:strong_healing\"}"
+          }
+         ],
+         "name": "minecraft:splash_potion"
+        },
+         {
+          "type": "minecraft:item",
+          "functions": [
+           {
+            "function": "set_nbt",
+            "tag": "{Potion:\"minecraft:long_regeneration\"}"
+          }
+         ],
+         "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+           {
+            "function": "set_nbt",
+            "tag": "{Potion:\"minecraft:long_regeneration\"}"
+          }
+         ],
+         "name": "minecraft:splash_potion"
+        }
+        ]
+     },
+     {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+         ],
+         "name": "minecraft:golden_apple"
+       },
+       {
+        "type": "minecraft:item",
+        "functions": [
+         {
+          "function": "set_nbt",
+          "tag": "{Potion:\"minecraft:weakness\"}"
+        }
+       ],
+       "name": "minecraft:splash_potion"
+      }
+      ]
+   }
+   ]
+  }

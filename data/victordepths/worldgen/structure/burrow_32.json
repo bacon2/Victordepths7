@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#victordepths:in_fluffyfunplace",
+  "max_distance_from_center": 110,
+  "size": 7,
+  "spawn_overrides": {
+    
+  },
+  "start_height": {
+    "absolute": 32
+  },
+  "start_pool": "victordepths:burrow_start",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "use_expansion_hack": false
+}

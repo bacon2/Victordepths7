@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:gold_block",
+          "nbt":"{}"
+      },
+      "title": "You Can't Fire Me, I Quit!",
+      "description": "Break a block of gold in the aweclouds, then leave before you get banished",
+      "frame": "challenge"
+  },
+  "criteria":
+  {
+      "gave_gold": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:break_awecloud_gold"
+}

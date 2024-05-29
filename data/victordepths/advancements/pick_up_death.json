@@ -1,0 +1,20 @@
+{
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "nbt": "{nbt:\"death\"}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "rewards": {
+      "function":"victordepths:gain_death"
+    }
+}

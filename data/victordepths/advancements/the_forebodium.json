@@ -1,0 +1,22 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:lodestone",
+          "nbt":"{}"
+      },
+      "title": "A Huge Mistake",
+      "description": "Build, light, and enter a Forebodium portal",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+    "whatever": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "victordepths:the_forebodium"
+      }
+    }
+  },
+  "parent":"victordepths:victordepths"
+}

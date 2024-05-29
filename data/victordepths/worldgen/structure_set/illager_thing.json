@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "victordepths:illager_thing_32",
+      "weight": 1
+    },
+    {
+      "structure": "victordepths:illager_thing_64",
+      "weight": 1
+    },
+    {
+      "structure": "victordepths:illager_thing_96",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 4,
+    "separation": 2,
+    "salt": 3982344
+  }
+}

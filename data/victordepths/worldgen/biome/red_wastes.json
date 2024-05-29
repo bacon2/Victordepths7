@@ -1,0 +1,124 @@
+{
+  "effects": {
+    "foliage_color": 6566400,
+    "grass_color": 13120000,
+    "sky_color": 13166335,
+    "fog_color": 13166335,
+    "water_color": 6553600,
+    "water_fog_color": 9866310,
+    "grass_color_modifier": "none",
+    "music": {
+      "sound": "victordepths:victordepths",
+      "min_delay": 2000,
+      "max_delay": 3000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "probability": 0.2,
+      "options": {
+        "type": "minecraft:mycelium"
+      }
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "victordepths:small_dripstone_cluster",
+      "victordepths:ore_victordepths_iron",
+      "victordepths:ore_victordepths_lapis",
+      "victordepths:ore_victordepths_diamond",
+      "victordepths:ore_victordepths_gold",
+      "victordepths:ore_victordepths_acacia_wood",
+      "victordepths:ore_victordepths_dirt",
+      "victordepths:ore_victordepths_blackstone",
+      "victordepths:ore_victordepths_light_gray_terracotta"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "victordepths:patch_red_glazed_terracotta",
+      "victordepths:patch_victortart"
+    ],
+    [
+    ]
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:husk",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:camel",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "water_creature": [
+    ],
+    "water_ambient": [
+      {
+        "type": "minecraft:salmon",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ],
+    "misc": []
+  },
+  "spawn_costs": {
+    "minecraft:warden": {
+      "energy_budget": 0.1,
+      "charge": 3.0
+    }
+  },
+  "has_precipitation": false,
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "category": "mesa"
+}

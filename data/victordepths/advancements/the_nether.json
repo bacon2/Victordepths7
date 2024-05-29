@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon":{
+        "item":"minecraft:obsidian",
+        "nbt":"{}"
+    },
+    "title": "The Nether",
+    "description": "An important step to discovering new dimensions",
+    "frame": "goal"
+},
+  "criteria": {
+    "whatever": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "parent":"victordepths:victordepths"
+}

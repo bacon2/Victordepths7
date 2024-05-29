@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "victordepths:piglin_town",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 20,
+    "salt": 8112930
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "victordepths:piglin_mansion",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 127,
+    "separation": 120,
+    "salt": 1649933
+  }
+}

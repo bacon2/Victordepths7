@@ -1,0 +1,17 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:emerald",
+          "nbt":"{Enchantments:[{}]}"
+      },
+      "title": "Supply Shortage",
+      "description": "Kill 100 Wandering Traders"
+  },
+  "criteria":
+  {
+      "killed": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:kill_10_wanderer"
+}

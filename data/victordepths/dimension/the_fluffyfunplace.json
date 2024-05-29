@@ -1,0 +1,49 @@
+{
+  "type": "victordepths:the_fluffyfunplace",
+  "generator": {
+    "biome_source": {
+      "biomes": [
+        {
+          "biome": "victordepths:blue_flufforest",
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.6,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:rainbow_flufforest",
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.8,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:purple_flufforest",
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "seed": 0,
+    "settings": "victordepths:the_fluffyfunplace",
+    "type": "minecraft:noise"
+  }
+}

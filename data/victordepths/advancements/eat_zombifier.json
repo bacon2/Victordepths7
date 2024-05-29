@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "eat_item": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:rotten_flesh",
+          "nbt": "{nbt:\"zombifier\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function":"victordepths:join_zombie"
+  }
+}

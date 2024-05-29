@@ -1,0 +1,22 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:axolotl_bucket",
+          "nbt":"{}"
+      },
+      "title": "You're gonna get wet!",
+      "description": "Discover a portal to the Great Aquifer",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+    "whatever": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "victordepths:the_fluffyfunplace",
+        "to": "victordepths:the_great_aquifer"
+      }
+    }
+  },
+  "parent":"victordepths:the_fluffyfunplace"
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:light_gray_stained_glass_pane",
+          "nbt":"{}"
+      },
+      "title": "Skyblock Dream",
+      "description": "Discover a portal to The Open",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+    "whatever": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "victordepths:the_uncharted",
+        "to": "victordepths:the_open"
+      }
+    }
+  },
+  "parent":"victordepths:the_uncharted"
+}

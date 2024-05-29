@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "victordepths:fun_water_thing",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 4,
+    "separation": 3,
+    "salt": 1184933
+  }
+}

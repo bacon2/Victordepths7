@@ -1,0 +1,22 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:sculk_shrieker",
+          "nbt":"{}"
+      },
+      "title": "Hiding Place",
+      "description": "Build, light, and enter a horizontal Phantom Zone portal",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+    "whatever": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "victordepths:the_phantom_zone"
+      }
+    }
+  },
+  "parent":"victordepths:victordepths"
+}

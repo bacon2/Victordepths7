@@ -1,0 +1,17 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:emerald",
+          "nbt":"{Enchantments:[{}]}"
+      },
+      "title": "Pest Control",
+      "description": "Kill a Wandering Trader"
+  },
+  "criteria":
+  {
+      "killed": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:illager"
+}

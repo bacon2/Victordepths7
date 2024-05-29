@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "eat_item": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+      }
+    }
+  },
+  "rewards": {
+    "function":"victordepths:update_villagers"
+  }
+}

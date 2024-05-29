@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:carved_pumpkin",
+          "nbt":"{}"
+      },
+      "title": "Find the Victorsmith",
+      "description": "Locate an ancient villager with a fondness for forbodine",
+      "frame": "challenge"
+  },
+  "criteria":
+  {
+      "find_victorsmith": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:eat_victortart_first"
+}

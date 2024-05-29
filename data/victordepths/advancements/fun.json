@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:purple_wool",
+            "nbt":"{}"
+        },
+        "title": "Fun and Fluff",
+        "description": "The only serious problem is seriousness itself",
+        "announce_to_chat": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria":
+    {
+        "choose_team": {
+            "trigger": "minecraft:impossible"
+          }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:raw_gold",
+          "nbt":"{Enchantments:[{}]}"
+      },
+      "title": "Attitude of Gratitude",
+      "description": "Throw heavengold at a Piglin"
+  },
+  "criteria":
+  {
+      "gave_gold": {
+          "trigger": "minecraft:thrown_item_picked_up_by_entity",
+          "conditions":
+            {
+              "item": {
+                "nbt": "{nbt:\"heavengold\"}"
+              },
+              "entity": {
+                "type": "minecraft:piglin"
+              }
+            }
+        }
+  },
+  "parent":"victordepths:the_aweclouds"
+}

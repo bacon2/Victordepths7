@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "eat_item": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cod",
+          "nbt": "{nbt:\"nitwit_fish\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function":"victordepths:join_fun"
+  }
+}

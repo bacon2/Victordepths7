@@ -1,0 +1,22 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:mossy_stone_bricks",
+          "nbt":"{}"
+      },
+      "title": "A Land Long Forgotten",
+      "description": "Build, light, and enter an Uncharted portal",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+    "whatever": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "victordepths:the_uncharted"
+      }
+    }
+  },
+  "parent":"victordepths:victordepths"
+}

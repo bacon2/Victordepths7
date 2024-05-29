@@ -1,0 +1,73 @@
+{
+  "type": "victordepths:the_victordepths",
+  "generator": {
+    "biome_source": {
+      "biomes": [
+        {
+          "biome": "victordepths:lost_ocean",
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": [-1.0,0.0]
+          }
+        },
+        {
+          "biome": "victordepths:red_wastes",
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:red_wastes_plateau",
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 1.0
+          }
+        },
+        {
+          "biome": "victordepths:scumlands",
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.2,
+            "continentalness": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:iron_oaks",
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.2,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.2,
+            "continentalness": 0.0
+          }
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "seed": 0,
+    "settings": "victordepths:the_victordepths",
+    "type": "minecraft:noise"
+  }
+}

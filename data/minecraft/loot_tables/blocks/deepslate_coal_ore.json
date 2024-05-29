@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:deepslate_coal_ore",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "victordepths:pickaxe"
+            },
+            {
+              "condition": "minecraft:reference",
+              "name": "victordepths:silk_touch"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "ore_drops"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{nbt:\"soul_coal\", Enchantments: [{}], display: {Name: '{\"text\":\"Soul Coal\", \"italic\":\"false\"}'}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "victordepths:in_underworld"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:coal",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "victordepths:pickaxe"
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition":"minecraft:reference",
+                "name":"victordepths:silk_touch"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "true"
+                      },
+                      "Name": "minecraft:fire_coral_fan"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "fluids": [
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_fluids"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "axis": "y"
+                      },
+                      "Name": "minecraft:bone_block"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "fluids": [
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_fluids"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "true"
+                      },
+                      "Name": "minecraft:horn_coral_fan"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "fluids": [
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_fluids"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

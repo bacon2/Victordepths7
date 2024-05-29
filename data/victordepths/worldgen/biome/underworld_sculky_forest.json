@@ -1,0 +1,129 @@
+{
+  "effects": {
+    "foliage_color": 16777215,
+    "sky_color": 0,
+    "grass_color": 5263440,
+    "grass_color_modifier": "none",
+    "mood_sound": {
+      "sound": "minecraft:ambient.underwater.loop.additions.ultra_rare",
+      "tick_delay": 4000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_chance": 0.001
+    },
+    "music":
+    {
+      "sound": "victordepths:underworld",
+      "min_delay": 5000,
+      "max_delay": 9000,
+      "replace_current_music": true
+    },
+    "fog_color": 5263440,
+    "water_color": 4445678,
+    "water_fog_color": 1991810
+  },
+  "carvers": {
+    "air": [
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "victordepths:sculk_patch_underworld"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "victordepths:ore_soul_coal",
+      "victordepths:ore_underworld_iron",
+      "victordepths:ore_underworld_diamond"
+    ],
+    [],
+    [
+    ],
+    [
+      "victordepths:spruce_fungi"
+    ]
+  ],
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 8
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 30,
+        "minCount": 4,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:zombified_piglin",
+        "weight": 30,
+        "minCount": 4,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 5,
+        "minCount": 4,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:cave_spider",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:ghast",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:wither_skeleton",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+      "ambient": [
+      ],
+    "axolotls": [],
+    "underground_water_creature": [
+    ],
+    "water_creature": [
+    ],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "has_precipitation": false,
+  "temperature": 0.0,
+  "downfall": 2.0,
+  "category": "none"
+}

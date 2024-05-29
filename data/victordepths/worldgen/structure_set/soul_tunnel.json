@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "victordepths:soul_tunnel",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 11,
+    "separation": 5,
+    "salt": 4408712
+  }
+}

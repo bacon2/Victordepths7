@@ -1,0 +1,22 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:sculk_catalyst",
+          "nbt":"{}"
+      },
+      "title": "Prison of the Dead",
+      "description": "Summon the Warden and enter an Underworld portal",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+    "whatever": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "victordepths:the_underworld"
+      }
+    }
+  },
+  "parent":"victordepths:victordepths"
+}

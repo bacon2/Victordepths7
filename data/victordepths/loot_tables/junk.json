@@ -1,0 +1,223 @@
+{
+    "type": "chest",
+     "pools": [
+       {
+         "rolls": 5,
+         "entries": [
+           {
+             "type": "minecraft:item",
+             "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 20,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:string"
+          }
+       ]
+      },
+      {
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+             {
+               "function": "minecraft:set_count",
+               "count": {
+                 "min": 0,
+                 "max": 64,
+                 "type": "minecraft:uniform"
+               }
+             }
+           ],
+           "name": "minecraft:rotten_flesh"
+         }
+      ]
+     },
+     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+           {
+             "function": "minecraft:set_count",
+             "count": {
+               "min": 0,
+               "max": 64,
+               "type": "minecraft:uniform"
+             }
+           }
+         ],
+         "name": "minecraft:glass_bottle"
+       }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.2
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+          {
+            "function": "minecraft:enchant_randomly"
+          },
+          {
+            "function": "minecraft:set_damage",
+            "damage": {
+              "min": 0.8,
+              "max": 1.0,
+              "type": "minecraft:uniform"
+            }
+          }
+        ],
+        "name": "minecraft:stone_axe"
+      }
+     ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.08
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+          {
+            "function": "minecraft:enchant_randomly"
+          },
+          {
+            "function": "minecraft:set_damage",
+            "damage": {
+              "min": 0.6,
+              "max": 1.0,
+              "type": "minecraft:uniform"
+            }
+          }
+        ],
+        "name": "minecraft:iron_shovel"
+      }
+    ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.1
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+          {
+            "function": "minecraft:enchant_randomly"
+          },
+          {
+            "function": "minecraft:set_damage",
+            "damage": {
+              "min": 0.8,
+              "max": 1.0,
+              "type": "minecraft:uniform"
+            }
+          }
+        ],
+        "name": "minecraft:shears"
+      }
+    ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+          {
+            "function": "minecraft:enchant_randomly"
+          },
+          {
+            "function": "minecraft:set_damage",
+            "damage": {
+              "min": 0.3,
+              "max": 1.0,
+              "type": "minecraft:uniform"
+            }
+          }
+        ],
+        "name": "minecraft:leather_boots"
+      }
+    ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 20,
+                  "type": "minecraft:uniform"
+                },
+        "name": "minecraft:dirt"
+      }
+    ]
+    },
+    {
+      "rolls": 5,
+      "entries": [
+        {
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.1
+          }
+        ],
+          "type": "minecraft:loot_table",
+          "weight":1,
+          "name": "victordepths:food"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.08
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+          {
+            "function": "minecraft:enchant_randomly"
+          },
+          {
+            "function": "minecraft:set_nbt",
+            "tag":"{Enchantments: [{lvl: 4, id: \"minecraft:smite\"}, {lvl: 2, id: \"minecraft:knockback\"}], display: {Lore: ['{\"text\":\"Hope found among the trash\"}'], Name: '{\"text\":\"Ultimate Dumpster Bone\", \"italic\":\"false\", \"color\":\"purple\"}'}}"
+          }
+        ],
+        "name": "minecraft:bone"
+      }
+    ]
+    }
+   ]
+  }

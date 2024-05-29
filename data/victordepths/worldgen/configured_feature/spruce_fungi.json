@@ -1,0 +1,27 @@
+{
+  "config": {
+    "hat_state": {
+      "Properties": {
+        "axis": "y"
+      },
+      "Name": "minecraft:spruce_wood"
+    },
+    "decor_state": {
+      "Name": "minecraft:cobweb"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Name": "minecraft:blackstone"
+    },
+    "stem_state": {
+      "Properties": {
+        "axis": "y"
+      },
+      "Name": "minecraft:polished_basalt"
+    },
+    "replaceable_blocks":{
+      "type":"replaceable"
+    }
+  },
+  "type": "minecraft:huge_fungus"
+}

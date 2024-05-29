@@ -1,0 +1,11 @@
+{
+  "values": [
+      "minecraft:cobblestone",
+      "minecraft:cobbled_deepslate",
+      "minecraft:blackstone",
+      "#minecraft:terracotta",
+      "minecraft:calcite",
+      "minecraft:mossy_cobblestone",
+      "minecraft:dead_bubble_coral_block"
+  ]
+}

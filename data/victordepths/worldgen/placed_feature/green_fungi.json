@@ -1,0 +1,12 @@
+{
+  "feature": "victordepths:green_fungi",
+  "placement": [
+    {
+      "count": 12,
+      "type": "minecraft:count_on_every_layer"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

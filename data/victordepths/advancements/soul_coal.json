@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:coal",
+            "nbt":"{Enchantments:[{}]}"
+        },
+        "title": "Foss-soul Fuel",
+        "description": "Throw it for 1 second immortality"
+    },
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:coal",
+                  "nbt": "{nbt:\"soul_coal\"}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "parent":"victordepths:the_underworld"
+}

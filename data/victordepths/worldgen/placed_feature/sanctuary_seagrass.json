@@ -1,0 +1,21 @@
+{
+  "feature": "minecraft:seagrass_simple",
+  "placement": [
+    {
+      "count": 8,
+      "type": "minecraft:count_on_every_layer"
+    },
+    {
+      "predicate": {
+        "fluids": [
+          "minecraft:water"
+        ],
+        "type": "minecraft:matching_fluids"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

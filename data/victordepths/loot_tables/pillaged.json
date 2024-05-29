@@ -1,0 +1,281 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 7,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:poppy"
+        },
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.3
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 20,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.3
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 5,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.01
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 20,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:emerald"
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            
+          ],
+          "name": "minecraft:bell"
+        },
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.3
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+            
+          ],
+          "name": "minecraft:chest"
+        },
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.3
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+            
+          ],
+          "name": "minecraft:green_bed"
+        },
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.3
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+            
+          ],
+          "name": "minecraft:fletching_table"
+        },
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.3
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+            
+          ],
+          "name": "minecraft:grindstone"
+        },
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.3
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner:\"MHF_Villager\", display:{Name:'{\"text\":\"Villager Head\",\"italic\":\"false\",\"color\":\"white\"}'}}"
+            }
+          ],
+          "name": "minecraft:player_head"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.3
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:carrot"
+        },
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.3
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:potato"
+        },
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.3
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:beetroot"
+        },
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.1
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 20,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:arrow"
+        },
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.1
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+          ],
+          "name": "minecraft:iron_axe"
+        },
+        {
+          "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.1
+            }
+          ],
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 20,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:pumpkin_pie"
+        }
+      ]
+    }
+  ]
+}

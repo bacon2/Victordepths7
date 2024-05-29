@@ -1,0 +1,15 @@
+{
+  "name": "victordepths:burrow_start",
+  "fallback": "victordepths:burrow_dead_end",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "victordepths:burrow_x1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

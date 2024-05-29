@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:gilded_blackstone",
+          "nbt":"{}"
+      },
+      "title": "A Peaceful Piggy Pit",
+      "description": "Build, light, and enter a Sanctuary portal",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+      "past_phantoms": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:victordepths"
+}

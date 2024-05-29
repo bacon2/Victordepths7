@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "victordepths:fallen_zombie",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 15,
+    "separation": 8,
+    "salt": 3929331
+  }
+}

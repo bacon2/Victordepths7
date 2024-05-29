@@ -1,0 +1,21 @@
+{
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:blaze_rod",
+                  "nbt": "{nbt:\"mind_rod\"}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "rewards": {
+      "function":"victordepths:gain_rod"
+    }
+}

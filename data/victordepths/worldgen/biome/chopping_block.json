@@ -1,0 +1,107 @@
+{
+  "effects": {
+    "foliage_color": 7224470,
+    "sky_color": 0,
+    "grass_color": 7224470,
+    "grass_color_modifier": "none",
+    "music":
+    {
+      "sound": "victordepths:forbodium",
+      "min_delay": 2000,
+      "max_delay": 3000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "probability":0.05,
+      "options": {
+        "type": "minecraft:witch"
+      }
+    },
+    "fog_color": 0,
+    "water_color": 100,
+    "water_fog_color": 0
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "victordepths:forebodium_litter",
+      "victordepths:ore_forebodium_forbodine",
+      "victordepths:ore_forebodium_diamond"
+    ],
+    [],
+    [
+      "victordepths:spring_open",
+      "victordepths:spring_closed",
+      "victordepths:giant_cave_mushrooms"
+    ],
+    [
+    ]
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:ravager",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:vindicator",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:evoker",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:pillager",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "has_precipitation": false,
+  "temperature": 0.0,
+  "downfall": 2.0,
+  "category": "none"
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:diamond_boots",
+            "nbt":"{}"
+        },
+        "title": "Water Those?",
+        "description": "Find a Watery Wizard to upgrade the Rainwalkers"
+    },
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:diamond_boots",
+                  "nbt": "{nbt:\"rainwalkers\"}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "parent":"victordepths:the_great_aquifer"
+}

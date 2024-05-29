@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "functions": [],
+          "name": "minecraft:blocks/seagrass",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:reference",
+                "name": "victordepths:in_great_aquifer"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag":"{nbt:\"magic_kelp\",Enchantments:[{}],display:{Name:'{\"text\":\"Enchanted Kelp\",\"italic\":\"false\"}'}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "victordepths:in_great_aquifer"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:dried_kelp",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "victordepths:in_great_aquifer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

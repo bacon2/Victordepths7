@@ -1,0 +1,21 @@
+{
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "tag": "victordepths:base_stone_weatherkeep",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "minecraft:water",
+          "Properties": {
+            "level":"0"
+          }
+        }
+      }
+    ],
+    "size": 30,
+    "discard_chance_on_air_exposure": 0.7
+  },
+  "type": "minecraft:ore"
+}

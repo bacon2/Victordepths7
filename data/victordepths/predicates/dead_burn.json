@@ -1,0 +1,27 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{Dimension:\"minecraft:overworld\"}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{Dimension:\"victordepths:the_aweclouds\"}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{Dimension:\"victordepths:the_open\"}"
+            }
+        }
+    ]
+}

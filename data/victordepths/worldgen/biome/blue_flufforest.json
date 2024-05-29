@@ -1,0 +1,88 @@
+{
+  "effects": {
+    "foliage_color": 16777215,
+    "sky_color": 0,
+    "grass_color": 5263440,
+    "grass_color_modifier": "none",
+    "music":
+    {
+      "sound": "minecraft:music_disc.chirp",
+      "min_delay": 1000,
+      "max_delay": 2000,
+      "replace_current_music": true
+    },
+    "fog_color": 5263440,
+    "water_color": 16737480,
+    "water_fog_color": 1991810
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "victordepths:ore_slime",
+      "minecraft:spring_water"
+    ],
+    [],
+    [
+    ],
+    [
+      "victordepths:blue_fluffgi"
+    ]
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:cow",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:guardian",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+     
+    ],
+    "ambient": [
+    ],
+    "axolotls": [],
+    "underground_water_creature": [
+      
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "has_precipitation": true,
+  "temperature": 0.0,
+  "downfall": 2.0,
+  "category": "none"
+}

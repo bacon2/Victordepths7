@@ -1,0 +1,734 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "1"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "15"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "2"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "3"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "4"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "5"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "6"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "15"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "7"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "8"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "9"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "10"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "11"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "12"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "13"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 0,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "rotation": "14"
+                      },
+                      "Name": "minecraft:skeleton_skull"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 7,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "false",
+                        "axis":"z"
+                      },
+                      "Name": "minecraft:chain"
+                    },
+                    "type": "minecraft:rotated_block_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 4,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Name": "minecraft:torch"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                },
+                {
+                  "predicate": {
+                    "offsetY": -1,
+                    "blocks": [
+                      "minecraft:dark_oak_planks"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "tries": 96,
+            "xz_spread": 7,
+            "y_spread": 0,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Name": "minecraft:cobweb"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": []
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

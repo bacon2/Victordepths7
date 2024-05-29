@@ -1,0 +1,116 @@
+{
+  "effects": {
+    "foliage_color": 4935700,
+    "sky_color": 110,
+    "grass_color": 4935700,
+    "grass_color_modifier": "none",
+    "music":
+    {
+      "sound": "victordepths:uncharted",
+      "min_delay": 2000,
+      "max_delay": 3000,
+      "replace_current_music": true
+    },
+    "fog_color": 3281950,
+    "water_color": 4445678,
+    "water_fog_color": 1991810
+  },
+  "carvers": {
+    "air": [
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [],
+    [],
+    [],
+    [
+      "victordepths:small_dripstone_cluster",
+      "victordepths:ore_uncharted_amethyst",
+      "victordepths:ore_uncharted_coal",
+      "victordepths:ore_uncharted_gravel"
+    ],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:lush_caves_ceiling_vegetation",
+      "minecraft:cave_vines",
+      "minecraft:lush_caves_vegetation",
+      "minecraft:spore_blossom",
+      "minecraft:patch_grass_badlands",
+      "minecraft:patch_dead_bush_2",
+      "minecraft:patch_sugar_cane_desert",
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_cactus_desert",
+      "victordepths:scattered_amethyst"
+    ],
+    [
+    ]
+  ],
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:wandering_trader",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:camel",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 8
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:husk",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 8
+      }
+    ],
+      "ambient": [
+        {
+          "type": "minecraft:bat",
+          "weight": 15,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ],
+    "axolotls": [
+    ],
+    "underground_water_creature": [
+    ],
+    "water_creature": [
+    ],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {
+    "minecraft:creeper": {
+      "energy_budget": 0.5,
+      "charge": 9.0
+    }
+  },
+  "has_precipitation": true,
+  "temperature": 1.0,
+  "downfall": 2.0,
+  "category": "none"
+}

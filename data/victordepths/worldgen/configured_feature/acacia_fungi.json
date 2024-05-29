@@ -1,0 +1,28 @@
+{
+
+      "config": {
+        "hat_state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:acacia_log"
+        },
+        "decor_state": {
+          "Name": "minecraft:dirt"
+        },
+        "planted": false,
+        "valid_base_block": {
+          "Name": "minecraft:gravel"
+        },
+        "stem_state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:polished_basalt"
+        },
+        "replaceable_blocks":{
+          "type":"replaceable"
+        }
+      },
+      "type": "minecraft:huge_fungus"
+}

@@ -1,0 +1,27 @@
+{
+  "config": {
+    "hat_state": {
+      "Properties": {
+        "berries": "false"
+      },
+      "Name": "minecraft:cave_vines_plant"
+    },
+    "decor_state": {
+      "Name": "minecraft:air"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Name": "minecraft:moss_block"
+    },
+    "stem_state": {
+      "Properties": {
+        "axis": "y"
+      },
+      "Name": "minecraft:stripped_dark_oak_log"
+    },
+    "replaceable_blocks":{
+      "type":"replaceable"
+    }
+  },
+  "type": "minecraft:huge_fungus"
+}

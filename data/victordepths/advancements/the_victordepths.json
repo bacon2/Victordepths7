@@ -1,0 +1,22 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:red_glazed_terracotta",
+          "nbt":"{}"
+      },
+      "title": "Wasteland of Champions",
+      "description": "Build and light a portal to The Victordepths. (Tutorial in Forebodium)",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+    "whatever": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "victordepths:the_victordepths"
+      }
+    }
+  },
+  "parent":"victordepths:victordepths"
+}

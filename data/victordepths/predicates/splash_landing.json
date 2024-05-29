@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "chest": {
+                        "nbt": "{nbt:splash_lander}"
+                    }
+                },
+                "nbt": "{FallFlying:1b}"
+            }
+        }
+    ]
+}

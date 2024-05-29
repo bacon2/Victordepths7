@@ -1,0 +1,98 @@
+{
+  "effects": {
+    "foliage_color": 9226340,
+    "sky_color": 11853040,
+    "grass_color": 11852980,
+    "grass_color_modifier": "none",
+    "mood_sound": {
+      "sound": "minecraft:entity.lightning_bolt.thunder",
+      "tick_delay": 100,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:item.elytra.flying",
+      "tick_chance": 0.02
+    },
+    "music": {
+      "sound": "victordepths:weatherkeep",
+      "min_delay": 500,
+      "max_delay": 1000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "probability": 0.05,
+      "options": {
+        "type": "minecraft:snowflake"
+      }
+    },
+    "fog_color": 263248,
+    "water_color": 4445678,
+    "water_fog_color": 1991810
+  },
+"carvers": {
+  "air": [
+  ]
+},
+"features": [
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+  ],
+  [
+    "minecraft:ice_spike",
+    "minecraft:iceberg_packed",
+    "minecraft:iceberg_blue"
+  ]
+],
+"spawners": {
+  "creature": [
+    {
+      "type": "minecraft:polar_bear",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ],
+  "monster": [
+    {
+      "type": "minecraft:stray",
+      "weight": 15,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "minecraft:drowned",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ],
+    "ambient": [
+      
+    ],
+  "axolotls": [],
+  "underground_water_creature": [
+  ],
+  "water_creature": [
+  ],
+  "water_ambient": [],
+  "misc": []
+},
+"spawn_costs": {
+  "minecraft:wandering_trader": {
+    "energy_budget": 0.1,
+    "charge": 9.0
+  }
+},
+"has_precipitation": true,
+"temperature": -10.0,
+"downfall": 2.0,
+"category": "taiga"
+}

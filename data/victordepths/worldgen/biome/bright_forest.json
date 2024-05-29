@@ -1,0 +1,90 @@
+{
+  "effects": {
+    "foliage_color": 15119360,
+    "sky_color": 15111780,
+    "grass_color": 11842560,
+    "grass_color_modifier": "none",
+    "music":
+    {
+      "sound": "victordepths:sanctuary",
+      "min_delay": 5000,
+      "max_delay": 9000,
+      "replace_current_music": true
+    },
+    "fog_color": 15111780,
+    "water_color": 16737480,
+    "water_fog_color": 1991810
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "victordepths:ore_sanctuary_gold",
+      "victordepths:ore_sanctuary_copper",
+      "victordepths:ore_sanctuary_glowstone",
+      "minecraft:disk_gravel",
+      "victordepths:sanctuary_seagrass"
+    ],
+    [],
+    [
+      "minecraft:spring_water"
+    ],
+    [
+      "victordepths:bright_fungi"
+    ]
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:piglin",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 5,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "ambient": [
+    ],
+    "axolotls": [],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "has_precipitation": false,
+  "temperature": 2.0,
+  "downfall": 2.0,
+  "category": "none"
+}

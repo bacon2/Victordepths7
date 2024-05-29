@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "eat_item": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_chicken",
+          "nbt": "{nbt:\"underworld_bat\"}"
+        }
+      }
+    }
+  },
+  "display": {
+    "icon":{
+        "item":"minecraft:cooked_chicken",
+        "nbt":"{}"
+    },
+    "title": "Tastes Like Chicken",
+    "description": "Eat an Underworld Bat",
+    "frame": "challenge"
+},
+"parent":"victordepths:the_underworld"
+}

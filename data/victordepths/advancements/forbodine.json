@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:emerald",
+            "nbt":"{Enchantments:[{}]}"
+        },
+        "title": "Emeralds for Pros",
+        "description": "Mine Forbodine in the Forebodium"
+    },
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:emerald",
+                  "nbt": "{nbt:\"forbodine\"}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "parent":"victordepths:the_forebodium"
+}

@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "victordepths:illager_boss_house_32",
+      "weight": 1
+    },
+    {
+      "structure": "victordepths:illager_boss_house_64",
+      "weight": 1
+    },
+    {
+      "structure": "victordepths:illager_boss_house_96",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 24,
+    "separation": 18,
+    "salt": 7439993
+  }
+}

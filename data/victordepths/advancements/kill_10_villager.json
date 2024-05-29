@@ -1,0 +1,17 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:emerald",
+          "nbt":"{Enchantments:[{}]}"
+      },
+      "title": "Pink Ponk Pernk",
+      "description": "Kill 10 Villagers"
+  },
+  "criteria":
+  {
+      "killed": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:kill_1_villager"
+}

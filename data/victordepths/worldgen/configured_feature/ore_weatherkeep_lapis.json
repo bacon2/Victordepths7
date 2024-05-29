@@ -1,0 +1,18 @@
+{
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "tag": "victordepths:base_stone_weatherkeep",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "minecraft:deepslate_lapis_ore"
+        }
+      }
+    ],
+    "size": 9,
+    "discard_chance_on_air_exposure": 0.99
+  },
+  "type": "minecraft:ore"
+}

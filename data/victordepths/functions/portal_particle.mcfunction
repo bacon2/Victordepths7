@@ -1,0 +1,13 @@
+execute at @s[tag=fluffyfunplace_portal] run particle minecraft:falling_obsidian_tear ~ ~0.2 ~ 0.25 0.25 0.25 0 3 normal
+execute at @s[tag=sanctuary_portal] run particle minecraft:block minecraft:gold_block ~ ~0.2 ~ 0.25 0.25 0.25 0 1 normal
+execute at @s[tag=phantom_zone_portal] run particle minecraft:mycelium ~ ~0.2 ~ 0.25 0 0.25 0 10 normal
+execute at @s[tag=victordepths_portal] if predicate victordepths:1_in_8 run particle minecraft:lava ~ ~ ~ 0.3 0 0.3 0 1 normal
+execute at @s[tag=underworld_portal] run particle minecraft:sculk_soul ~ ~0.3 ~ 0.3 0.3 0.3 0 1 normal
+execute at @s[tag=underworld_portal] run particle minecraft:dust 0 0 0 3 ~ ~ ~ 0.3 0.3 0.3 1 1
+execute at @s[tag=forebodium_portal] run particle minecraft:damage_indicator ~ ~-1 ~ 0.2 0.4 0.2 0 1
+execute at @s[tag=forebodium_portal] run particle minecraft:enchant ~ ~0.2 ~ 0.5 0 0.5 0.2 2
+execute at @s[tag=weatherkeep_portal] run particle minecraft:falling_water ~ ~0.2 ~ 0.25 0.25 0.25 0 3 normal
+execute at @s[tag=aweclouds_portal] run particle minecraft:falling_nectar ~ ~0.3 ~ 0.3 0.3 0.3 0 3 normal
+execute at @s[tag=uncharted_portal] run particle minecraft:dust 1 1 0 3 ~ ~0.3 ~ 0.2 0.2 0.2 0 3
+execute at @e[tag=great_aquifer_portal] run particle minecraft:glow_squid_ink ~ ~0.2 ~ 0.25 0.25 0.25 0 3 normal
+execute at @e[tag=open_portal] run particle minecraft:campfire_cosy_smoke ~ ~0.2 ~ 0.5 0 0.5 0.2 2

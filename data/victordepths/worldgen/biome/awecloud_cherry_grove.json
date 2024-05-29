@@ -1,0 +1,103 @@
+{
+  "effects": {
+    "foliage_color": 65280,
+    "sky_color": 8893695,
+    "grass_color": 65280,
+    "grass_color_modifier": "none",
+    "mood_sound": {
+      "sound": "minecraft:block.beacon.power_select",
+      "tick_delay": 300,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "music":
+    {
+      "sound": "victordepths:aweclouds",
+      "min_delay": 1000,
+      "max_delay": 1500,
+      "replace_current_music": true
+    },
+    "fog_color": 16777215,
+    "water_color": 11847935,
+    "water_fog_color": 11847935
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_water"
+    ],
+    [
+      "victordepths:ore_heaven_gold",
+      "victordepths:ore_awecloud_cake",
+      "victordepths:ore_awecloud_water",
+      "victordepths:ore_awecloud_leaves",
+      "minecraft:trees_cherry",
+      "minecraft:flower_cherry",
+      "minecraft:flower_flower_forest",
+      "minecraft:patch_pumpkin"
+    ],
+    [],
+    [
+     
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawners": {
+    "monster": [
+    ],
+    "creature": [
+      {
+        "type": "minecraft:parrot",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:ocelot",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:rabbit",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:horse",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [
+      
+    ],
+    "axolotls": [],
+    "underground_water_creature": [
+      
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "has_precipitation": true,
+  "temperature": 1.0,
+  "downfall": 0.0,
+  "category": "none"
+}

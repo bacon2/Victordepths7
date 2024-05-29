@@ -1,0 +1,21 @@
+{
+    "name": "the_open",
+    "has_raids": false,
+    "logical_height": 512,
+    "infiniburn": "#minecraft:infiniburn_overworld",
+    "ambient_light": 0.0,
+    "piglin_safe": false,
+    "bed_works": true,
+    "respawn_anchor_works": false,
+    "ultrawarm": false,
+    "natural": true,
+    "shrunk": false,
+    "has_skylight": true,
+    "fixed_time": 7000,
+    "has_ceiling": false,
+    "height": 1024,
+    "min_y": 0,
+    "monster_spawn_block_light_limit": 15,
+    "monster_spawn_light_level": 11,
+    "coordinate_scale": 0.125
+}

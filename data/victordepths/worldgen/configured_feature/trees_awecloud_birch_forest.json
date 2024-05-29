@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "victordepths:awecloud_giant_birch",
+    "features": [
+      {
+        "chance": 0.15,
+        "feature": "victordepths:awecloud_giant_oak"
+      }
+    ]
+  }
+}

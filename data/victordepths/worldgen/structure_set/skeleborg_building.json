@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "victordepths:skeleborg_building",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 18,
+    "separation": 10,
+    "salt": 8544982
+  }
+}

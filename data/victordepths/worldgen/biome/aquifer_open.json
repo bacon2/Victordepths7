@@ -1,0 +1,111 @@
+{
+  "effects": {
+    "foliage_color": 65280,
+    "sky_color": 16777180,
+    "grass_color": 65280,
+    "grass_color_modifier": "none",
+    "music":
+    {
+      "sound": "victordepths:great_aquifer",
+      "min_delay": 1000,
+      "max_delay": 1500,
+      "replace_current_music": true
+    },
+    "fog_color": 11847935,
+    "water_color": 11847935,
+    "water_fog_color": 11847935
+  },
+  "carvers": {
+    "air": [
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+    ],
+    [],
+    [
+      "victordepths:ore_great_aquifer_diamond"
+    ],
+    [
+    ]
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:guardian",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:elder_guardian",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:dolphin",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "ambient": [],
+    "axolotls": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "underground_water_creature": [
+    ],
+    "water_creature": [
+      
+    ],
+    "water_ambient": [
+      {
+        "type": "minecraft:salmon",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:cod",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:tropical_fish",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "misc": []
+  },
+  "spawn_costs": {
+    "minecraft:guardian": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:elder_guardian": {
+      "energy_budget": 0.1,
+      "charge": 3.0
+    }
+  },
+  "has_precipitation": false,
+  "temperature": 0.0,
+  "downfall": -1.0,
+  "category": "none"
+}

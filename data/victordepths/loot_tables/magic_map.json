@@ -1,0 +1,27 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "victordepths:magic_compass_visible",
+                            "decoration": "target_x",
+                            "zoom":2,
+                            "search_radius":50,
+                            "skip_existing_chunks":false,
+                            "conditions": [
+                            ]
+                          }
+                    ]
+                }
+            ]
+        }
+    ]
+}

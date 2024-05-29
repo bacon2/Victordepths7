@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "victordepths:water_wizard_32",
+      "weight": 1
+    },
+    {
+      "structure": "victordepths:water_wizard_64",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 14,
+    "separation": 10,
+    "salt": 2345709
+  }
+}

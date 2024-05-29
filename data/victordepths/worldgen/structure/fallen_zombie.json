@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#victordepths:has_fallen_zombie",
+  "max_distance_from_center": 90,
+  "size": 6,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:zombie",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 3
+        },
+        {
+          "type": "minecraft:skeleton",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 27
+        }
+      ]
+    }
+  },
+  "start_height": {
+    "absolute": 32
+  },
+  "start_pool": "victordepths:fallen_zombie",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "use_expansion_hack": false
+}

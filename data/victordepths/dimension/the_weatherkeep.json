@@ -1,0 +1,73 @@
+{
+  "type": "victordepths:the_weatherkeep",
+  "generator": {
+    "biome_source": {
+      "biomes": [
+        {
+          "biome": "victordepths:weatherkeep_void",
+          "parameters": {
+            "erosion": [-1.0,0.0],
+            "depth": 0.0,
+            "weirdness": [-0.6,0.3],
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:weatherkeep_open",
+          "parameters": {
+            "erosion": [0.0,1.5],
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:weatherkeep_shockcloud",
+          "parameters": {
+            "erosion": [0.0,1.5],
+            "depth": 0.0,
+            "weirdness": -0.6,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:weatherkeep_jungle",
+          "parameters": {
+            "erosion": [0.0,1.5],
+            "depth": 0.0,
+            "weirdness": 0.3,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:weatherkeep_sleetcloud",
+          "parameters": {
+            "erosion": [0.0,1.5],
+            "depth": 0.0,
+            "weirdness": -0.3,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          }
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "seed": 0,
+    "settings": "victordepths:the_weatherkeep",
+    "type": "minecraft:noise"
+  }
+}

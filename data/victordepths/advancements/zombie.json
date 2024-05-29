@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:rotten_flesh",
+            "nbt":"{}"
+        },
+        "title": "Zombie",
+        "description": "Obey your hunger",
+        "announce_to_chat": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria":
+    {
+        "choose_team": {
+            "trigger": "minecraft:impossible"
+          }
+    }
+}
