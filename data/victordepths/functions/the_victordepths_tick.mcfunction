@@ -1,11 +1,11 @@
-execute as @e[distance=0.., tag=!moved, type=husk] run data modify entity @s ArmorItems set value [{id:"minecraft:netherite_boots", Count:1b},{id:"minecraft:netherite_leggings", Count:1b},{id:"minecraft:netherite_chestplate", Count:1b},{id:"minecraft:jack_o_lantern", Count:1b}]
+execute as @e[distance=0.., tag=!moved, type=husk] run data modify entity @s ArmorItems set value [{id:"minecraft:netherite_boots", count:1b},{id:"minecraft:netherite_leggings", count:1b},{id:"minecraft:netherite_chestplate", count:1b},{id:"minecraft:jack_o_lantern", count:1b}]
 execute as @e[distance=0.., tag=!moved, type=husk] run tag @s add moved
-execute as @e[distance=0.., tag=!moved, type=skeleton] run data modify entity @s ArmorItems[3] set value {id:"minecraft:blast_furnace", Count:1b}
-execute as @e[distance=0.., tag=!moved, type=skeleton] run data modify entity @s HandItems[0] set value {id:"minecraft:iron_axe", Count:1b}
+execute as @e[distance=0.., tag=!moved, type=skeleton] run data modify entity @s ArmorItems[3] set value {id:"minecraft:blast_furnace", count:1b}
+execute as @e[distance=0.., tag=!moved, type=skeleton] run data modify entity @s HandItems[0] set value {id:"minecraft:iron_axe", count:1b}
 execute as @e[distance=0.., tag=!moved, type=skeleton] run attribute @s minecraft:generic.armor base set 20.0
 execute as @e[distance=0.., tag=!moved, type=skeleton] run attribute @s minecraft:generic.armor_toughness base set 20.0
 execute as @e[distance=0.., tag=!moved, type=skeleton] run tag @s add moved
-execute as @e[distance=0.., tag=!moved, type=zombie] run data merge entity @s {IsBaby:1b,ArmorItems:[{id:"minecraft:leather_boots", Count:1b},{id:"minecraft:leather_leggings", Count:1b},{id:"minecraft:leather_chestplate", Count:1b},{id:"minecraft:rooted_dirt", Count:1b}]}
+execute as @e[distance=0.., tag=!moved, type=zombie] run data merge entity @s {IsBaby:1b,ArmorItems:[{id:"minecraft:leather_boots", count:1b},{id:"minecraft:leather_leggings", count:1b},{id:"minecraft:leather_chestplate", count:1b},{id:"minecraft:rooted_dirt", count:1b}]}
 execute as @e[distance=0.., tag=!moved, type=zombie] run tag @s add moved
 execute as @a[distance=0..] at @s if entity @e[tag=victorsmith, distance=..10] run advancement grant @s only victordepths:find_victorsmith
 execute as @a[distance=0..] at @s positioned ~ 330 ~ as @s[distance=..30] run function victordepths:to_spawn
