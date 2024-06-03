@@ -37,14 +37,14 @@
           ],
             "type": "minecraft:loot_table",
             "weight":1,
-            "name": "victordepths:food"
+            "value": "victordepths:food"
         },
         {
           "conditions": [
           ],
             "type": "minecraft:loot_table",
             "weight":1,
-            "name": "victordepths:fireworks"
+            "value": "victordepths:fireworks"
         }
       ]
     }

@@ -191,7 +191,7 @@
         ],
           "type": "minecraft:loot_table",
           "weight":1,
-          "name": "victordepths:food"
+          "value": "victordepths:food"
         }
       ]
     },

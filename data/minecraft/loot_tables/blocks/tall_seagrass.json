@@ -8,7 +8,7 @@
           "type": "minecraft:loot_table",
           "weight": 1,
           "functions": [],
-          "name": "minecraft:blocks/seagrass",
+          "value": "minecraft:blocks/seagrass",
           "conditions": [
             {
               "condition": "minecraft:inverted",
