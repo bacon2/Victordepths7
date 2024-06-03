@@ -7,7 +7,7 @@
           "predicate_type": "minecraft:tag_match"
         },
         "state": {
-          "Name": "minecraft:glowstone_block"
+          "Name": "minecraft:glowstone"
         }
       }
     ],

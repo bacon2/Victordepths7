@@ -130,7 +130,7 @@
           },
           "then_run": {
             "result_state": {
-              "Name": "minecraft:sculk_block"
+              "Name": "minecraft:sculk"
             },
             "type": "minecraft:block"
           },
