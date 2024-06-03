@@ -4,12 +4,6 @@
     "sky_color": 11853040,
     "grass_color": 11852980,
     "grass_color_modifier": "none",
-    "music": {
-      "sound": "victordepths:weatherkeep",
-      "min_delay": 1000,
-      "max_delay": 2000,
-      "replace_current_music": true
-    },
     "mood_sound": {
       "sound": "minecraft:entity.lightning_bolt.thunder",
       "tick_delay": 100,

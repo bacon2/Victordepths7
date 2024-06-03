@@ -14,12 +14,6 @@
       "sound": "minecraft:ambient.cave",
       "tick_chance": 0.001
     },
-    "music": {
-      "sound": "victordepths:underworld",
-      "min_delay": 5000,
-      "max_delay": 9000,
-      "replace_current_music": true
-    },
     "fog_color": 12027442,
     "water_color": 920418,
     "water_fog_color": 1991810,

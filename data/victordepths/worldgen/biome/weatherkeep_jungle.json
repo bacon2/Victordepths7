@@ -10,12 +10,6 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "music": {
-      "sound": "victordepths:weatherkeep",
-      "min_delay": 500,
-      "max_delay": 1000,
-      "replace_current_music": true
-    },
     "particle": {
       "probability": 0.02,
       "options": {

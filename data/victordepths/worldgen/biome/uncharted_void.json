@@ -4,13 +4,6 @@
     "sky_color": 110,
     "grass_color": 1341530,
     "grass_color_modifier": "none",
-    "music":
-    {
-      "sound": "victordepths:uncharted",
-      "min_delay": 2000,
-      "max_delay": 3000,
-      "replace_current_music": true
-    },
     "fog_color": 2642010,
     "water_color": 4445678,
     "water_fog_color": 1991810

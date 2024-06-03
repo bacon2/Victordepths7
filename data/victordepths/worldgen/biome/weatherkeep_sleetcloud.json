@@ -14,12 +14,6 @@
       "sound": "minecraft:item.elytra.flying",
       "tick_chance": 0.02
     },
-    "music": {
-      "sound": "victordepths:weatherkeep",
-      "min_delay": 500,
-      "max_delay": 1000,
-      "replace_current_music": true
-    },
     "particle": {
       "probability": 0.05,
       "options": {
