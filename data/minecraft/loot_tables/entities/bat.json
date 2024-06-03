@@ -24,7 +24,7 @@
                 }
               },
               {
-                "function": "set_nbt",
+                "function": "set_custom_data",
                 "tag": "{nbt:\"underworld_bat\", display: {Name: '{\"text\":\"Underworld Bat\", \"italic\":\"false\"}'}}"
               }
             ],

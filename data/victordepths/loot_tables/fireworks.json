@@ -18,7 +18,7 @@
                               }
                         },
                         {
-                            "function":"set_nbt",
+                            "function":"set_custom_data",
                             "tag":"{Fireworks: {Flight: 1b, Explosions: [{Type: 1b, Colors: [I; 14602026]}]}}"
                         }
                     ]
@@ -37,7 +37,7 @@
                               }
                         },
                         {
-                            "function":"set_nbt",
+                            "function":"set_custom_data",
                             "tag":"{Fireworks: {Flight: 1b, Explosions: [{Type: 2b, Colors: [I; 8073150], FadeColors: [I; 11743532]}]}}"
                         }
                     ]
@@ -56,7 +56,7 @@
                               }
                         },
                         {
-                            "function":"set_nbt",
+                            "function":"set_custom_data",
                             "tag":"{Fireworks: {Flight: 1b, Explosions: [{Type: 1b, Colors: [I; 3887386]}, {Type: 3b, Colors: [I; 14602026], FadeColors: [I; 4312372]}]}}"
                         }
                     ]
@@ -75,7 +75,7 @@
                               }
                         },
                         {
-                            "function":"set_nbt",
+                            "function":"set_custom_data",
                             "tag":"{Fireworks: {Flight: 2b, Explosions: [{Type: 0b, Trail: 1b, Colors: [I; 2651799]}, {Type: 2b, Colors: [I; 8073150]}, {Type: 3b, Colors: [I; 12801229]}, {Type: 0b, Colors: [I; 11743532]}, {Type: 1b, Colors: [I; 8073150]}, {Type: 0b, Colors: [I; 2437522]}]}}"
                         }
                     ]

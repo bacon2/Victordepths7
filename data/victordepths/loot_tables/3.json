@@ -10,7 +10,7 @@
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{Potion: \"minecraft:weakness\"}"
                         }
                     ]
@@ -87,7 +87,7 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{StoredEnchantments: [{lvl: 1s, id: \"minecraft:mending\"}]}"
                         }
                     ]

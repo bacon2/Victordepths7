@@ -152,7 +152,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
+              "function": "minecraft:set_custom_data",
               "tag": "{SkullOwner:\"MHF_Villager\", display:{Name:'{\"text\":\"Villager Head\",\"italic\":\"false\",\"color\":\"white\"}'}}"
             }
           ],

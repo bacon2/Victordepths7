@@ -8,7 +8,7 @@
             "type": "minecraft:item",
             "functions": [
              {
-                "function": "set_nbt",
+                "function": "set_custom_data",
                 "tag": "{nbt:\"death\",display: {Name: '{\"text\":\"Totem of Dying\", \"italic\":\"false\"}'}}"
             }
            ],

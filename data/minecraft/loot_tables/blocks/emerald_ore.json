@@ -47,7 +47,7 @@
               "formula": "ore_drops"
             },
             {
-              "function": "set_nbt",
+              "function": "set_custom_data",
               "tag": "{nbt:\"forbodine\", Enchantments: [{}], display: {Name: '{\"text\":\"Forbodine\", \"italic\":\"false\"}'}}",
               "conditions": [
                 {

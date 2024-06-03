@@ -18,7 +18,7 @@
                             }
                         },
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{Potion:\"minecraft:invisibility\"}"
                         }
                     ]
@@ -51,7 +51,7 @@
                             }
                         },
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{Enchantments:[{id:\"minecraft:efficiency\", lvl:2}]}"
                         }
                     ]
@@ -115,7 +115,7 @@
                             }
                         },
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{nbt:\"soul_coal\", Enchantments: [{}], display: {Name: '{\"text\":\"Soul Coal\", \"italic\":\"false\"}'}}"
                         }
                     ]
@@ -126,7 +126,7 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{custom_potion_effects: [{duration: 999, id: resistance, amplifier: 4s}], CustomPotionColor: 16777215, display: {Name: '{\"text\":\"49 Second Immortality\", \"italic\":\"false\"}'}}"
                         }
                     ]
@@ -145,7 +145,7 @@
                             }
                         },
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{RepairCost: 0, display: {Name: '{\"text\":\"Loot Horse\"}'}, EntityTag: {Tags:[\"vcd_horseshoe\"],Tame:1b,ArmorItems:[{id:\"leather_boots\",Count:1b,tag:{Enchantments:[{id:\"frost_walker\",lvl:2}]}},{},{},{}]}}"
                         }
                     ]

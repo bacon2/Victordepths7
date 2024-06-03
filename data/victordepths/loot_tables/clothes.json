@@ -10,7 +10,7 @@
                     "name": "minecraft:leather_helmet",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 16707231, Name: '{\"text\":\"Blonde Wig\"}'}}"
                         }
                     ]
@@ -21,7 +21,7 @@
                     "name": "minecraft:leather_helmet",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 16351261, Name: '{\"text\":\"Red Wig\"}'}}"
                         }
                     ]
@@ -32,7 +32,7 @@
                     "name": "minecraft:leather_helmet",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 3221541, Name: '{\"text\":\"Black Wig\"}'}}"
                         }
                     ]
@@ -43,7 +43,7 @@
                     "name": "minecraft:leather_helmet",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 6964782, Name: '{\"text\":\"Brown Wig\"}'}}"
                         }
                     ]
@@ -59,7 +59,7 @@
                     "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 2659450, Name: '{\"text\":\"Shirt\"}'}}"
                         }
                     ]
@@ -70,7 +70,7 @@
                     "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 1908001, Name: '{\"text\":\"Shirt\"}'}}"
                         }
                     ]
@@ -81,7 +81,7 @@
                     "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 16383998, Name: '{\"text\":\"Shirt\"}'}}"
                         }
                     ]
@@ -92,7 +92,7 @@
                     "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 15308591, Name: '{\"text\":\"Shirt\"}'}}"
                         }
                     ]
@@ -108,7 +108,7 @@
                     "name": "minecraft:leather_leggings",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 2644058, Name: '{\"text\":\"Pants\"}'}}"
                         }
                     ]
@@ -119,7 +119,7 @@
                     "name": "minecraft:leather_leggings",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 9022894, Name: '{\"text\":\"Pants\"}'}}"
                         }
                     ]
@@ -130,7 +130,7 @@
                     "name": "minecraft:leather_leggings",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 3290681, Name: '{\"text\":\"Pants\"}'}}"
                         }
                     ]
@@ -141,7 +141,7 @@
                     "name": "minecraft:leather_leggings",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 13864494, Name: '{\"text\":\"Pants\"}'}}"
                         }
                     ]
@@ -157,7 +157,7 @@
                     "name": "minecraft:leather_boots",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 4148763, Name: '{\"text\":\"Boots\"}'}}"
                         }
                     ]
@@ -168,7 +168,7 @@
                     "name": "minecraft:leather_boots",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 15961002, Name: '{\"text\":\"Boots\"}'}}"
                         }
                     ]
@@ -179,7 +179,7 @@
                     "name": "minecraft:leather_boots",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 16383998, Name: '{\"text\":\"Boots\"}'}}"
                         }
                     ]
@@ -190,7 +190,7 @@
                     "name": "minecraft:leather_boots",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{RepairCost: 0, Damage: 0, display: {color: 14129300, Name: '{\"text\":\"Boots\"}'}}"
                         }
                     ]

@@ -18,7 +18,7 @@
                               }
                         },
                         {
-                            "function":"set_nbt",
+                            "function":"set_custom_data",
                             "tag":"{nbt:\"heaven_gold\",Enchantments: [{}], display: {Name: '{\"text\":\"Heaven Gold\", \"italic\":\"false\"}'}}"
                         }
                     ]
@@ -77,7 +77,7 @@
                     "name": "minecraft:golden_shovel",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{Enchantments: [{}], display: {Name: '{\"text\":\"Heavenly Snowshovel\", \"italic\":\"false\"}'}}"
                         }
                     ]

@@ -17,7 +17,7 @@
     ]
   },
   {
-    "function": "set_nbt",
+    "function": "set_custom_data",
     "tag": "{AttributeModifiers:[]}",
     "conditions": [
       {

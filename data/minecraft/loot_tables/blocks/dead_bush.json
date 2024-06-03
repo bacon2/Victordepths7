@@ -32,7 +32,7 @@
               }
             },
             {
-              "function": "set_nbt",
+              "function": "set_custom_data",
               "tag": "{nbt:\"victortart\", Enchantments: [{}], display: {Name: '{\"text\":\"Victortart\", \"italic\":\"false\"}'}}"
             }
           ],

@@ -18,7 +18,7 @@
                               }
                         },
                         {
-                            "function":"set_nbt",
+                            "function":"set_custom_data",
                             "tag":"{Fireworks: {Flight: 1b, Explosions: [{Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}]}}"
                         }
                     ]
@@ -74,7 +74,7 @@
                     "name": "minecraft:milk_bucket",
                     "functions": [
                         {
-                            "function":"set_nbt",
+                            "function":"set_custom_data",
                             "tag":"{display:{Name:'{\"text\":\"Hog Milk\", \"italic\":\"false\"}'}}"
                         }
                     ]

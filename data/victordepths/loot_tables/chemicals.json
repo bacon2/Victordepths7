@@ -16,7 +16,7 @@
                }
              },
              {
-                "function": "set_nbt",
+                "function": "set_custom_data",
                 "tag": "{display: {Italics: 0b, Name: '{\"text\":\"Paper Towel\", \"italic\":\"false\"}'}}"
             }
            ],
@@ -31,7 +31,7 @@
             "type": "minecraft:item",
             "functions": [
              {
-              "function": "set_nbt",
+              "function": "set_custom_data",
               "tag": "{custom_potion_effects: [{duration: 200, id: strength, amplifier: 4}, {duration: 200, id: wither, amplifier: 2}], CustomPotionColor: 16711680, display: {Name: '{\"text\":\"Concentrated Red Vinegar\", \"italic\":\"false\"}'}}"
             }
            ],
@@ -41,7 +41,7 @@
           "type": "minecraft:item",
           "functions": [
            {
-            "function": "set_nbt",
+            "function": "set_custom_data",
             "tag": "{custom_potion_effects: [{duration: 1000, id: poison, amplifier: 10}, {duration: 1000, id: blindness, amplifier: 2}], CustomPotionColor: 255, display: {Italics: 0b, Name: '{\"text\":\"Toilet Cleaner\", \"italic\":\"false\"}'}}"
           }
          ],
@@ -51,7 +51,7 @@
           "type": "minecraft:item",
           "functions": [
            {
-            "function": "set_nbt",
+            "function": "set_custom_data",
             "tag": "{custom_potion_effects: [{duration: 200, id: hunger, amplifier: 0}], CustomPotionColor: 13158500, display: {Italics: 0b, Name: '{\"text\":\"Cookiedough Air Freshener\", \"italic\":\"false\"}'}}"
           }
          ],
@@ -61,7 +61,7 @@
           "type": "minecraft:item",
           "functions": [
            {
-            "function": "set_nbt",
+            "function": "set_custom_data",
             "tag": "{custom_potion_effects: [{duration: 2000, id: poison, amplifier: 0},{duration: 2000, id: blindness, amplifier: 0}], CustomPotionColor: 16777215, display: {Italics: 0b, Name: '{\"text\":\"Stain Remover\", \"italic\":\"false\"}'}}"
           }
          ],
@@ -71,7 +71,7 @@
           "type": "minecraft:item",
           "functions": [
            {
-            "function": "set_nbt",
+            "function": "set_custom_data",
             "tag": "{custom_potion_effects: [{duration: 1000, id: weakness, amplifier: 2},{duration: 700, id: nausea, amplifier: 10}, {duration: 1100, id: slowness, amplifier: 127}], CustomPotionColor: 25600, display: {Italics: 0b, Name: '{\"text\":\"Weed Killer\", \"italic\":\"false\"}'}}"
           }
          ],
@@ -81,7 +81,7 @@
           "type": "minecraft:item",
           "functions": [
            {
-            "function": "set_nbt",
+            "function": "set_custom_data",
             "tag": "{custom_potion_effects: [{duration: 50, id: wither, amplifier: 0}, {duration: 1000, id: blindness, amplifier: 0}], CustomPotionColor: 7452847, display: {Italics: 0b, Name: '{\"text\":\"Cleaning Product\", \"italic\":\"false\"}'}}"
           }
          ],
@@ -91,7 +91,7 @@
           "type": "minecraft:item",
           "functions": [
            {
-            "function": "set_nbt",
+            "function": "set_custom_data",
             "tag": "{custom_potion_effects: [{duration: 1000, id: slowness, amplifier: 10}, {duration: 1000, id: wither, amplifier: 2}, {duration: 1000, id: blindness, amplifier: 127}, {duration: 1000, id: jump_boost, amplifier: 128}], CustomPotionColor: 0, display: {Italics: 0b, Name: '{\"text\":\"Keep Out of Reach of Children\", \"italic\":\"false\"}'}}"
           }
          ],
@@ -101,7 +101,7 @@
           "type": "minecraft:item",
           "functions": [
            {
-            "function": "set_nbt",
+            "function": "set_custom_data",
             "tag": "{custom_potion_effects: [{duration: 1000, id: regeneration, amplifier: 127}, {duration: 1000, id: instant_health, amplifier: 128}], CustomPotionColor: 7452847, display: {Italics: 0b, Name: '{\"text\":\"Penicillin\", \"italic\":\"false\"}'}}"
           }
          ],

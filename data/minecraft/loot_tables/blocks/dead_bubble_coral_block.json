@@ -22,7 +22,7 @@
               "formula": "ore_drops"
             },
             {
-              "function": "set_nbt",
+              "function": "set_custom_data",
               "tag": "{display: {Name: '{\"text\":\"Cloudstone\", \"italic\":\"false\"}'}}",
               "conditions": [
                 {

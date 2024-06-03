@@ -108,7 +108,7 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{Potion: \"minecraft:invisibility\"}"
                         }
                     ]

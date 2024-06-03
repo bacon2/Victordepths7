@@ -79,7 +79,7 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{custom_potion_effects: [{duration: 9999, id: weakness, amplifier: 5s}, {duration: 9999, id: resistance, amplifier: 5s}], CustomPotionColor: 0, display: {Name: '{\"text\":\"Potion of Pacifism\", \"italic\":\"false\"}'}}"
                         }
                     ]
@@ -105,7 +105,7 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{StoredEnchantments: [{lvl: 5s, id: \"minecraft:efficiency\"}]}"
                         }
                     ]
@@ -116,7 +116,7 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{StoredEnchantments: [{lvl: 2s, id: \"minecraft:fire_aspect\"}]}"
                         }
                     ]
@@ -127,7 +127,7 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{StoredEnchantments: [{lvl: 3s, id: \"minecraft:fortune\"}]}"
                         }
                     ]
@@ -146,7 +146,7 @@
                                 }
                         },
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{nbt:\"forbodine\", Enchantments: [{}], display: {Name: '{\"text\":\"Forbodine\", \"italic\":\"false\"}'}}"
                         }
                     ]
@@ -157,7 +157,7 @@
                     "name": "minecraft:golden_pickaxe",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{Enchantments: [{lvl: 4s, id: \"minecraft:fortune\"}]}"
                         }
                     ]
@@ -168,7 +168,7 @@
                     "name": "minecraft:golden_axe",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{Enchantments: [{lvl: 4s, id: \"minecraft:fortune\"}]}"
                         }
                     ]
@@ -179,7 +179,7 @@
                     "name": "minecraft:golden_helmet",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{Enchantments: [{lvl: 4s, id: \"minecraft:respiration\"}]}"
                         }
                     ]
@@ -190,7 +190,7 @@
                     "name": "minecraft:golden_boots",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{Enchantments: [{lvl: 4s, id: \"minecraft:soul_speed\"}]}"
                         }
                     ]
@@ -201,7 +201,7 @@
                     "name": "minecraft:elytra",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{nbt: \"splash_lander\", display: {Name: '{\"text\":\"Splash Landing Elytra\",\"italic\":\"false\"}'}}"
                         }
                     ]

@@ -211,7 +211,7 @@
             "function": "minecraft:enchant_randomly"
           },
           {
-            "function": "minecraft:set_nbt",
+            "function": "minecraft:set_custom_data",
             "tag":"{Enchantments: [{lvl: 4, id: \"minecraft:smite\"}, {lvl: 2, id: \"minecraft:knockback\"}], display: {Lore: ['{\"text\":\"Hope found among the trash\"}'], Name: '{\"text\":\"Ultimate Dumpster Bone\", \"italic\":\"false\", \"color\":\"purple\"}'}}"
           }
         ],

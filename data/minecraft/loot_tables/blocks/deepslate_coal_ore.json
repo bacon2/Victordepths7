@@ -47,7 +47,7 @@
               "formula": "ore_drops"
             },
             {
-              "function": "set_nbt",
+              "function": "set_custom_data",
               "tag": "{nbt:\"soul_coal\", Enchantments: [{}], display: {Name: '{\"text\":\"Soul Coal\", \"italic\":\"false\"}'}}",
               "conditions": [
                 {

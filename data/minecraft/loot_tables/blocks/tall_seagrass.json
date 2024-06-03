@@ -37,7 +37,7 @@
               }
             },
             {
-              "function": "set_nbt",
+              "function": "set_custom_data",
               "tag":"{nbt:\"magic_kelp\",Enchantments:[{}],display:{Name:'{\"text\":\"Enchanted Kelp\",\"italic\":\"false\"}'}}",
               "conditions": [
                 {

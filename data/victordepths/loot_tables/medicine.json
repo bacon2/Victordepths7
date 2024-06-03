@@ -8,7 +8,7 @@
             "type": "minecraft:item",
             "functions": [
              {
-              "function": "set_nbt",
+              "function": "set_custom_data",
               "tag": "{Potion:\"minecraft:strong_healing\"}"
             }
            ],
@@ -18,7 +18,7 @@
           "type": "minecraft:item",
           "functions": [
            {
-            "function": "set_nbt",
+            "function": "set_custom_data",
             "tag": "{Potion:\"minecraft:strong_healing\"}"
           }
          ],
@@ -28,7 +28,7 @@
           "type": "minecraft:item",
           "functions": [
            {
-            "function": "set_nbt",
+            "function": "set_custom_data",
             "tag": "{Potion:\"minecraft:long_regeneration\"}"
           }
          ],
@@ -38,7 +38,7 @@
           "type": "minecraft:item",
           "functions": [
            {
-            "function": "set_nbt",
+            "function": "set_custom_data",
             "tag": "{Potion:\"minecraft:long_regeneration\"}"
           }
          ],
@@ -59,7 +59,7 @@
         "type": "minecraft:item",
         "functions": [
          {
-          "function": "set_nbt",
+          "function": "set_custom_data",
           "tag": "{Potion:\"minecraft:weakness\"}"
         }
        ],

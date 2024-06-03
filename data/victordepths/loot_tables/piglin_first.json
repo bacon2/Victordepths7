@@ -40,7 +40,7 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{StoredEnchantments: [{lvl: 1s, id: \"minecraft:multishot\"}]}"
                         }
                     ]
@@ -134,7 +134,7 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{StoredEnchantments: [{lvl: 5s, id: \"minecraft:sharpness\"}]}"
                         }
                     ]
@@ -145,7 +145,7 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{StoredEnchantments: [{lvl: 1s, id: \"minecraft:mending\"}]}"
                         }
                     ]
@@ -156,7 +156,7 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{StoredEnchantments: [{lvl: 3s, id: \"minecraft:unbreaking\"}]}"
                         }
                     ]
@@ -167,7 +167,7 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag":"{StoredEnchantments: [{lvl: 5s, id: \"minecraft:piercing\"}]}"
                         }
                     ]
