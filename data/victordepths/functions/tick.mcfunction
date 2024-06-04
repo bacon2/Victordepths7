@@ -23,9 +23,6 @@ execute as @e[tag=vcd_portal] at @s run function victordepths:portal_particle
 execute as @a[scores={vcd_throw_pearl=1..}] at @s run function victordepths:spell
 execute as @a[scores={vcd_throw_pearl=1..}] run scoreboard players reset @s vcd_throw_pearl
 ## special items
-execute as @a[tag=!holding_fusion, predicate=victordepths:holding_fusion] run item modify entity @s weapon.mainhand victordepths:replace_mainhand
-tag @a[predicate=victordepths:holding_fusion] add holding_fusion
-execute as @a[tag=holding_fusion, predicate=!victordepths:holding_fusion] run tag @s remove holding_fusion
 execute as @e[type=snowball, predicate=victordepths:melting_snowball] at @s facing entity @p eyes unless block ^ ^ ^-1 #victordepths:fluids run fill ^ ^ ^ ^ ^ ^1 water[level=15] replace #victordepths:fluids
 execute as @a[predicate=!victordepths:in_aweclouds, predicate=!victordepths:in_phantom_zone, tag=vcd_caught] at @s run advancement grant @s only victordepths:break_awecloud_gold_and_escape
 execute at @a[predicate=victordepths:wearing_rainwalkers, predicate=!victordepths:sneaking] if entity @p[predicate=!victordepths:in_forebodium,predicate=!victordepths:in_nether] run fill ~ ~-0.1 ~ ~ ~-0.1 ~ water[level=15] replace #victordepths:fluids
