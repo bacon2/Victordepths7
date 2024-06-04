@@ -1,5 +1,5 @@
 summon drowned ~ ~ ~ {Tags:[vcd_helper], ArmorItems:[{id:"diamond_boots",Count:1b},{id:"diamond_leggings",Count:1b},{id:"diamond_chestplate",Count:1b},{id:"seagrass",Count:1b}],HandItems:[{id:"trident",Count:1b},{}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f]}
 summon zombie_horse ~ ~ ~ {Passengers:[{id:"zombie",Tags:[vcd_helper], IsBaby:1b, ArmorItems:[{id:"leather_boots",Count:1b},{id:"leather_leggings",Count:1b},{id:"leather_chestplate",Count:1b},{id:"rooted_dirt",Count:1b}],HandItems:[{id:"netherite_axe",Count:1b},{}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f]}]}
 summon husk ~ ~ ~ {Tags:[vcd_helper], ArmorItems:[{id:"netherite_boots",Count:1b},{id:"netherite_leggings",Count:1b},{id:"netherite_chestplate",Count:1b},{id:"jack_o_lantern",Count:1b}],HandItems:[{id:"netherite_sword",Count:1b},{}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f]}
-particle block gold_block ~ ~ ~ 1 1 1 2 100
+particle block{block_state:gold_block} ~ ~ ~ 1 1 1 2 100
 playsound minecraft:entity.zombie.death master @s ~ ~ ~ 1 0.5
