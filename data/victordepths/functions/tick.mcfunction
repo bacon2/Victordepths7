@@ -50,8 +50,8 @@ execute if entity @a[predicate=victordepths:in_uncharted] in victordepths:the_un
 ## team stuff
 execute as @a[scores={vcd_level_up=1..}] at @s run function victordepths:give_spells
 scoreboard players reset @a vcd_level_up
-clear @a[tag=vcd_teamed_player] minecraft:rotten_flesh{nbt:"zombifier"}
-clear @a[tag=vcd_teamed_player] minecraft:cod{nbt:"nitwit_fish"}
+clear @a[tag=vcd_teamed_player] minecraft:rotten_flesh[custom_data={nbt:zombifier}]
+clear @a[tag=vcd_teamed_player] minecraft:cod[custom_data={nbt:nitwit_fish}]
 execute as @a[tag=!fun, predicate=victordepths:wearing_fun_flower] at @s run function victordepths:join_fun
 execute as @a[tag=vcd_teamed] at @s run function victordepths:team_player_tick
 execute as @e[tag=!vcd_teamed, type=!#vcd_inanimate] run function victordepths:team
