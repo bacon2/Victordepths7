@@ -7,7 +7,7 @@
           {
             "item": "minecraft:blaze_rod",
             "components": {
-              "custom_data": "{nbt:\"mind_rod\"}"
+              "custom_data": {"nbt":"mind_rod"}
             }
           }
       ],

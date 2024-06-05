@@ -15,7 +15,7 @@
           {
             "item": "minecraft:coal",
             "components": {
-              "custom_data": "{nbt:\"soul_coal\"}"
+              "custom_data": {"nbt":"soul_coal"}
             }
           }
         ],

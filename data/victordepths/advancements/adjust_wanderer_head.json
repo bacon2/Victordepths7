@@ -6,7 +6,7 @@
         "items": [
           {
             "components": {
-              "custom_data": "{nbt:\"wanderer_head\"}"
+              "custom_data": {"nbt":"wanderer_head"}
             }
           }
         ],

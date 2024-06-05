@@ -14,7 +14,7 @@
           {
             "item": "minecraft:diamond_leggings",
             "components": {
-              "custom_data": "{nbt:\"dolphinlegs\"}"
+              "custom_data": {"nbt":"dolphinlegs"}
             }
           }
         ],

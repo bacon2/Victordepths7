@@ -6,7 +6,7 @@
         "item": {
           "item": "minecraft:cod",
           "components": {
-            "custom_data": "{nbt:\"nitwit_fish\"}"
+            "custom_data": {"nbt":"nitwit_fish"}
           }
         }
       }

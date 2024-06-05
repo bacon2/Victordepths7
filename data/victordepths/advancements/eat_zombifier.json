@@ -6,7 +6,7 @@
         "item": {
           "item": "minecraft:rotten_flesh",
           "components": {
-            "custom_data": "{nbt:\"zombifier\"}"
+            "custom_data": {"nbt":"zombifier"}
           }
         }
       }

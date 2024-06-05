@@ -6,7 +6,7 @@
         "item": {
           "id": "minecraft:cooked_chicken",
           "components": {
-            "custom_data": "{nbt:\"underworld_bat\"}"
+            "custom_data": {"nbt":"underworld_bat"}
           }
         }
       }

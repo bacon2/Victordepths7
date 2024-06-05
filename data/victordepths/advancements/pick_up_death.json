@@ -6,7 +6,7 @@
         "items": [
           {
             "components": {
-              "custom_data": "{nbt:\"death\"}"
+              "custom_data": {"nbt":"death"}
             }
           }
         ],

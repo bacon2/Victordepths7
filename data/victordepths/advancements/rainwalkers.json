@@ -15,7 +15,7 @@
           {
             "item": "minecraft:leather_boots",
             "components": {
-              "custom_data": "{nbt:\"rainwalkers\"}"
+              "custom_data": {"nbt":"rainwalkers"}
             }
           }
         ],

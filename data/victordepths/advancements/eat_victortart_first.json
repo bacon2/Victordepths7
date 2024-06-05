@@ -15,7 +15,7 @@
         "item": {
           "item": "minecraft:sweet_berries",
           "components": {
-            "custom_data": "{nbt:\"victortart\"}"
+            "custom_data": {"nbt":"victortart"}
           }
         }
       }
