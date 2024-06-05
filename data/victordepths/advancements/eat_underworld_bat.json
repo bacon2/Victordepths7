@@ -14,8 +14,7 @@
   },
   "display": {
     "icon": {
-      "id": "minecraft:cooked_chicken",
-      "nbt": "{}"
+      "id": "minecraft:cooked_chicken"
     },
     "title": "Tastes Like Chicken",
     "description": "Eat an Underworld Bat",

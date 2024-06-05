@@ -1,8 +1,7 @@
 {
   "display": {
       "icon":{
-          "id":"minecraft:sculk_shrieker",
-          "nbt":"{}"
+          "id":"minecraft:sculk_shrieker"
       },
       "title": "Hiding Place",
       "description": "Build, light, and enter a horizontal Phantom Zone portal",

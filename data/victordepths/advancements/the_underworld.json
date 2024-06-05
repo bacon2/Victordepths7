@@ -1,8 +1,7 @@
 {
   "display": {
       "icon":{
-          "id":"minecraft:sculk_catalyst",
-          "nbt":"{}"
+          "id":"minecraft:sculk_catalyst"
       },
       "title": "Prison of the Dead",
       "description": "Summon the Warden and enter an Underworld portal",

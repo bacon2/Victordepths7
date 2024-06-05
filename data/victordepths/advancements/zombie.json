@@ -1,8 +1,7 @@
 {
     "display": {
         "icon":{
-            "id":"minecraft:rotten_flesh",
-            "nbt":"{}"
+            "id":"minecraft:rotten_flesh"
         },
         "title": "Zombie",
         "description": "Obey your hunger",

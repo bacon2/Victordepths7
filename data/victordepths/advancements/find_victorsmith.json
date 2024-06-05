@@ -1,8 +1,7 @@
 {
   "display": {
       "icon":{
-          "id":"minecraft:carved_pumpkin",
-          "nbt":"{}"
+          "id":"minecraft:carved_pumpkin"
       },
       "title": "Find the Victorsmith",
       "description": "Locate an ancient villager with a fondness for forbodine",

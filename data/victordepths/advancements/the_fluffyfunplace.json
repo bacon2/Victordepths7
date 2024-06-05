@@ -1,8 +1,7 @@
 {
   "display": {
       "icon":{
-          "id":"minecraft:crying_obsidian",
-          "nbt":"{}"
+          "id":"minecraft:crying_obsidian"
       },
       "title": "Very fluff! Such fun!",
       "description": "Build, light, and enter a Fluffy Fun Place portal",

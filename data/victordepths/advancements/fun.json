@@ -1,8 +1,7 @@
 {
     "display": {
         "icon":{
-            "id":"minecraft:purple_wool",
-            "nbt":"{}"
+            "id":"minecraft:purple_wool"
         },
         "title": "Fun and Fluff",
         "description": "The only serious problem is seriousness itself",

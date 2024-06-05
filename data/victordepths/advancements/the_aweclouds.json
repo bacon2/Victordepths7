@@ -1,8 +1,7 @@
 {
   "display": {
       "icon":{
-          "id":"minecraft:ochre_froglight",
-          "nbt":"{}"
+          "id":"minecraft:ochre_froglight"
       },
       "title": "Heavenly Calling",
       "description": "Build a tall, narrow gateway. Drop and burn a Totem of Undying in it to enter the Aweclouds",

@@ -1,8 +1,7 @@
 {
   "display": {
       "icon":{
-          "id":"minecraft:mossy_stone_bricks",
-          "nbt":"{}"
+          "id":"minecraft:mossy_stone_bricks"
       },
       "title": "A Land Long Forgotten",
       "description": "Build, light, and enter an Uncharted portal",

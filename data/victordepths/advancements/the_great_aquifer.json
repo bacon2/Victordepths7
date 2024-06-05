@@ -1,8 +1,7 @@
 {
   "display": {
       "icon":{
-          "id":"minecraft:axolotl_bucket",
-          "nbt":"{}"
+          "id":"minecraft:axolotl_bucket"
       },
       "title": "You're gonna get wet!",
       "description": "Discover a portal to the Great Aquifer",

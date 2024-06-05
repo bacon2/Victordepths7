@@ -2,7 +2,9 @@
   "display": {
     "icon": {
       "id": "minecraft:leather_boots",
-      "nbt": "{display: {color: 3949738}}"
+      "components": {
+        "dyed_color": 3949738
+      }
     },
     "title": "Cloud Surfer",
     "description": "Find the legendary Rainwalkers"

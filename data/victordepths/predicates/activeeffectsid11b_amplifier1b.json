@@ -1,1 +1,1 @@
-{  "condition":"minecraft:entity_properties","entity":"this","predicate": {"nbt": "{ActiveEffects:[{id:11b, amplifier:1b}]}"}}
+{  "condition":"minecraft:entity_properties","entity":"this","predicate": {"nbt": "{active_effects:[{id:\"minecraft:resistance\", amplifier:1b}]}"}}

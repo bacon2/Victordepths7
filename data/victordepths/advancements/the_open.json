@@ -1,8 +1,7 @@
 {
   "display": {
       "icon":{
-          "id":"minecraft:light_gray_stained_glass_pane",
-          "nbt":"{}"
+          "id":"minecraft:light_gray_stained_glass_pane"
       },
       "title": "Skyblock Dream",
       "description": "Discover a portal to The Open",

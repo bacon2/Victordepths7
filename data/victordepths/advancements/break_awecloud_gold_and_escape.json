@@ -1,8 +1,7 @@
 {
   "display": {
       "icon":{
-          "id":"minecraft:gold_block",
-          "nbt":"{}"
+          "id":"minecraft:gold_block"
       },
       "title": "You Can't Fire Me, I Quit!",
       "description": "Break a block of gold in the aweclouds, then leave before you get banished",
