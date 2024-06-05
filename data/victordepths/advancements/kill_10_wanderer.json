@@ -1,8 +1,7 @@
 {
   "display": {
       "icon":{
-          "id":"minecraft:emerald",
-          "nbt":"{Enchantments:[{}]}"
+          "id":"minecraft:emerald"
       },
       "title": "No Solicitors",
       "description": "Kill 10 Wandering Traders"

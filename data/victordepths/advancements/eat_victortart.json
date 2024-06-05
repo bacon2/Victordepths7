@@ -5,12 +5,14 @@
       "conditions": {
         "item": {
           "item": "minecraft:sweet_berries",
-          "nbt": "{nbt:\"victortart\"}"
+          "components": {
+            "custom_data": "{nbt:\"victortart\"}"
+          }
         }
       }
     }
   },
   "rewards": {
-    "function":"victordepths:victortart"
+    "function": "victordepths:victortart"
   }
 }

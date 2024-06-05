@@ -5,12 +5,14 @@
       "conditions": {
         "item": {
           "item": "minecraft:rotten_flesh",
-          "nbt": "{nbt:\"zombifier\"}"
+          "components": {
+            "custom_data": "{nbt:\"zombifier\"}"
+          }
         }
       }
     }
   },
   "rewards": {
-    "function":"victordepths:join_zombie"
+    "function": "victordepths:join_zombie"
   }
 }

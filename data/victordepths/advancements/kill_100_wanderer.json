@@ -1,8 +1,7 @@
 {
   "display": {
       "icon":{
-          "id":"minecraft:emerald",
-          "nbt":"{Enchantments:[{}]}"
+          "id":"minecraft:emerald"
       },
       "title": "Supply Shortage",
       "description": "Kill 100 Wandering Traders"

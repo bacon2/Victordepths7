@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{nbt:\"wanderer_head\"}"
+            "components": {
+              "custom_data": "{nbt:\"wanderer_head\"}"
+            }
           }
         ],
         "slots": {}

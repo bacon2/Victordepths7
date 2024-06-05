@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{nbt:\"piglin_head\"}"
+            "components": {
+              "custom_data": "{nbt:\"piglin_head\"}"
+            }
           }
         ],
         "slots": {}

@@ -1,27 +1,27 @@
 {
-    "display": {
-        "icon":{
-            "id":"minecraft:coal",
-            "nbt":"{Enchantments:[{}]}"
-        },
-        "title": "Foss-soul Fuel",
-        "description": "Throw it for 1 second immortality"
+  "display": {
+    "icon": {
+      "id": "minecraft:coal",
+      "nbt": "{Enchantments:[{}]}"
     },
-    "criteria":
-    {
-        "get_item": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-              "items": [
-                {
-                  "item": "minecraft:coal",
-                  "nbt": "{nbt:\"soul_coal\"}"
-                }
-              ],
-              "slots": {
-              }
+    "title": "Foss-soul Fuel",
+    "description": "Throw it for 1 second immortality"
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:coal",
+            "components": {
+              "custom_data": "{nbt:\"soul_coal\"}"
             }
           }
-    },
-    "parent":"victordepths:the_underworld"
+        ],
+        "slots": {}
+      }
+    }
+  },
+  "parent": "victordepths:the_underworld"
 }

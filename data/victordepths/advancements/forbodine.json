@@ -1,27 +1,27 @@
 {
-    "display": {
-        "icon":{
-            "id":"minecraft:emerald",
-            "nbt":"{Enchantments:[{}]}"
-        },
-        "title": "Emeralds for Pros",
-        "description": "Mine Forbodine in the Forebodium"
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald",
+      "nbt": "{Enchantments:[{}]}"
     },
-    "criteria":
-    {
-        "get_item": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-              "items": [
-                {
-                  "item": "minecraft:emerald",
-                  "nbt": "{nbt:\"forbodine\"}"
-                }
-              ],
-              "slots": {
-              }
+    "title": "Emeralds for Pros",
+    "description": "Mine Forbodine in the Forebodium"
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:emerald",
+            "components": {
+              "custom_data": "{nbt:\"forbodine\"}"
             }
           }
-    },
-    "parent":"victordepths:the_forebodium"
+        ],
+        "slots": {}
+      }
+    }
+  },
+  "parent": "victordepths:the_forebodium"
 }

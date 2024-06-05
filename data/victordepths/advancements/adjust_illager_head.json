@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{nbt:\"illager_head\"}"
+            "components": {
+              "custom_data": "{nbt:\"illager_head\"}"
+            }
           }
         ],
         "slots": {}

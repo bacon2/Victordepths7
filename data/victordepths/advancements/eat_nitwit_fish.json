@@ -5,12 +5,14 @@
       "conditions": {
         "item": {
           "item": "minecraft:cod",
-          "nbt": "{nbt:\"nitwit_fish\"}"
+          "components": {
+            "custom_data": "{nbt:\"nitwit_fish\"}"
+          }
         }
       }
     }
   },
   "rewards": {
-    "function":"victordepths:join_fun"
+    "function": "victordepths:join_fun"
   }
 }

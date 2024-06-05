@@ -5,19 +5,21 @@
       "conditions": {
         "item": {
           "id": "minecraft:cooked_chicken",
-          "nbt": "{nbt:\"underworld_bat\"}"
+          "components": {
+            "custom_data": "{nbt:\"underworld_bat\"}"
+          }
         }
       }
     }
   },
   "display": {
-    "icon":{
-        "id":"minecraft:cooked_chicken",
-        "nbt":"{}"
+    "icon": {
+      "id": "minecraft:cooked_chicken",
+      "nbt": "{}"
     },
     "title": "Tastes Like Chicken",
     "description": "Eat an Underworld Bat",
     "frame": "challenge"
-},
-"parent":"victordepths:the_underworld"
+  },
+  "parent": "victordepths:the_underworld"
 }

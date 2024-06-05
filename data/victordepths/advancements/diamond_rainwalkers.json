@@ -1,27 +1,27 @@
 {
-    "display": {
-        "icon":{
-            "id":"minecraft:diamond_boots",
-            "nbt":"{}"
-        },
-        "title": "Water Those?",
-        "description": "Find a Watery Wizard to upgrade the Rainwalkers"
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots",
+      "nbt": "{}"
     },
-    "criteria":
-    {
-        "get_item": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-              "items": [
-                {
-                  "item": "minecraft:diamond_boots",
-                  "nbt": "{nbt:\"rainwalkers\"}"
-                }
-              ],
-              "slots": {
-              }
+    "title": "Water Those?",
+    "description": "Find a Watery Wizard to upgrade the Rainwalkers"
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_boots",
+            "components": {
+              "custom_data": "{nbt:\"rainwalkers\"}"
             }
           }
-    },
-    "parent":"victordepths:the_great_aquifer"
+        ],
+        "slots": {}
+      }
+    }
+  },
+  "parent": "victordepths:the_great_aquifer"
 }

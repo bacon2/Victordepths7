@@ -1,8 +1,7 @@
 {
   "display": {
       "icon":{
-          "id":"minecraft:emerald",
-          "nbt":"{Enchantments:[{}]}"
+          "id":"minecraft:emerald"
       },
       "title": "Monster",
       "description": "Kill 100 Villagers"

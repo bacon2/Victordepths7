@@ -1,26 +1,25 @@
 {
   "display": {
-      "icon":{
-          "id":"minecraft:raw_gold",
-          "nbt":"{Enchantments:[{}]}"
-      },
-      "title": "Attitude of Gratitude",
-      "description": "Throw heavengold at a Piglin"
+    "icon": {
+      "id": "minecraft:raw_gold"
+    },
+    "title": "Attitude of Gratitude",
+    "description": "Throw heavengold at a Piglin"
   },
-  "criteria":
-  {
-      "gave_gold": {
-          "trigger": "minecraft:thrown_item_picked_up_by_entity",
-          "conditions":
-            {
-              "item": {
-                "nbt": "{nbt:\"heavengold\"}"
-              },
-              "entity": {
-                "type": "minecraft:piglin"
-              }
-            }
+  "criteria": {
+    "gave_gold": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "components": {
+            "custom_data": "{nbt:\"heavengold\"}"
+          }
+        },
+        "entity": {
+          "type": "minecraft:piglin"
         }
+      }
+    }
   },
-  "parent":"victordepths:the_aweclouds"
+  "parent": "victordepths:the_aweclouds"
 }
