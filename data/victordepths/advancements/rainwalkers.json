@@ -1,7 +1,7 @@
 {
     "display": {
         "icon":{
-            "item":"minecraft:leather_boots",
+            "id":"minecraft:leather_boots",
             "nbt":"{display: {color: 3949738}}"
         },
         "title": "Cloud Surfer",

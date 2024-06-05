@@ -4,7 +4,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:cooked_chicken",
+          "id": "minecraft:cooked_chicken",
           "nbt": "{nbt:\"underworld_bat\"}"
         }
       }
@@ -12,7 +12,7 @@
   },
   "display": {
     "icon":{
-        "item":"minecraft:cooked_chicken",
+        "id":"minecraft:cooked_chicken",
         "nbt":"{}"
     },
     "title": "Tastes Like Chicken",

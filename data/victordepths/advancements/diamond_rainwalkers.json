@@ -1,7 +1,7 @@
 {
     "display": {
         "icon":{
-            "item":"minecraft:diamond_boots",
+            "id":"minecraft:diamond_boots",
             "nbt":"{}"
         },
         "title": "Water Those?",

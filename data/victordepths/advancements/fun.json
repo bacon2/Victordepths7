@@ -1,7 +1,7 @@
 {
     "display": {
         "icon":{
-            "item":"minecraft:purple_wool",
+            "id":"minecraft:purple_wool",
             "nbt":"{}"
         },
         "title": "Fun and Fluff",

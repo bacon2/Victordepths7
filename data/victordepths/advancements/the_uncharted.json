@@ -1,7 +1,7 @@
 {
   "display": {
       "icon":{
-          "item":"minecraft:mossy_stone_bricks",
+          "id":"minecraft:mossy_stone_bricks",
           "nbt":"{}"
       },
       "title": "A Land Long Forgotten",

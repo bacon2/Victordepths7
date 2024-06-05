@@ -1,7 +1,7 @@
 {
   "display": {
       "icon":{
-          "item":"minecraft:red_glazed_terracotta",
+          "id":"minecraft:red_glazed_terracotta",
           "nbt":"{}"
       },
       "title": "Wasteland of Champions",

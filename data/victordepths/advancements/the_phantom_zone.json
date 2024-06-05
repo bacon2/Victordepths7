@@ -1,7 +1,7 @@
 {
   "display": {
       "icon":{
-          "item":"minecraft:sculk_shrieker",
+          "id":"minecraft:sculk_shrieker",
           "nbt":"{}"
       },
       "title": "Hiding Place",

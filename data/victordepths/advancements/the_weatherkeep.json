@@ -1,7 +1,7 @@
 {
   "display": {
       "icon":{
-          "item":"minecraft:weathered_copper",
+          "id":"minecraft:weathered_copper",
           "nbt":"{}"
       },
       "title": "A Weathered Portal",
