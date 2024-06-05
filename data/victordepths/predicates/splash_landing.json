@@ -7,7 +7,7 @@
             "predicate": {
                 "equipment": {
                     "chest": {
-                        "nbt": "{nbt:splash_lander}"
+                        "components":{"minecraft:custom_data":{"nbt": "melting_snowball"}}
                     }
                 },
                 "nbt": "{FallFlying:1b}"

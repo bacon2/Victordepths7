@@ -1,1 +1,7 @@
-{  "condition":"minecraft:entity_properties","entity":"this","predicate": {"nbt": "{HandItems:[{tag:{nbt:\"heaven_gold\"}}]}"}}
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": {"HandItems":[{"components":{"minecraft:custom_data":{"nbt": "heaven_gold"}}}]}
+    }
+}

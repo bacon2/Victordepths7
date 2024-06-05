@@ -1,7 +1,1 @@
-{
-    "condition":"minecraft:entity_properties",
-    "entity":"this",
-    "predicate": {
-        "nbt": "{Item:{tag:{nbt:\"melting_snowball\"}}}"
-    }
-}
+{ "condition":"minecraft:entity_properties","entity":"this","predicate": {"nbt": {"Item":{"components":{"minecraft:custom_data":{"nbt": "melting_snowball"}}}}}}

@@ -1,1 +1,1 @@
-{  "condition":"minecraft:entity_properties","entity":"this","predicate": {"nbt": "{Item:{tag:{nbt:\"raid_spell\"}}}"}}
+{ "condition":"minecraft:entity_properties","entity":"this","predicate": {"nbt": {"Item":{"components":{"minecraft:custom_data":{"nbt": "raid_spell"}}}}}}

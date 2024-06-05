@@ -1,1 +1,13 @@
-{  "condition":"minecraft:entity_properties","entity":"this","predicate": {"nbt": "{Inventory:[{tag:{nbt:\"mind_rod\"}}]}"}}
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": {
+            "components": {
+                "minecraft:custom_data": {
+                    "nbt": "mind_rod"
+                }
+            }
+        }
+    }
+}

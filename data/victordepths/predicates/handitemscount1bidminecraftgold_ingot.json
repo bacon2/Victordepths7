@@ -1,1 +1,14 @@
-{  "condition":"minecraft:entity_properties","entity":"this","predicate": {"nbt": "{HandItems:[{Count:1b,id:\"minecraft:gold_ingot\"}]}"}}
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": {
+            "Inventory": [
+                {
+                    "count": 1,
+                    "id": "minecraft:gold_ingot"
+                }
+            ]
+        }
+    }
+}

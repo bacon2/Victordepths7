@@ -7,7 +7,11 @@
             "predicate": {
                 "equipment": {
                     "feet": {
-                        "nbt": "{nbt:flamewalkers}"
+                        "components": {
+                            "minecraft:custom_data": {
+                                "nbt": "flamewalkers"
+                            }
+                        }
                     }
                 }
             }

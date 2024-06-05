@@ -1,1 +1,1 @@
-{  "condition":"minecraft:entity_properties","entity":"this","predicate": {"nbt": "{Item:{tag:{nbt:\"mind_rod\"}}}"}}
+{ "condition":"minecraft:entity_properties","entity":"this","predicate": {"nbt": {"Item":{"components":{"minecraft:custom_data":{"nbt": "mind_rod"}}}}}}
