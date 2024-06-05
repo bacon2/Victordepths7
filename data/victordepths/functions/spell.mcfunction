@@ -15,7 +15,7 @@ execute if entity @e[type=ender_pearl, distance=..3,predicate=victordepths:itemt
 ## heal spell
 execute if entity @e[type=ender_pearl, distance=..3,predicate=victordepths:itemtagnbtheal_spell] run effect give @s saturation 60 0
 ## leash spell
-execute if entity @e[type=ender_pearl, distance=..3,predicate=victordepths:itemtagnbtleash_spell] run data modify entity @e[distance=0.1.., type=!#victordepths:inanimate, type=!minecraft:player, nbt=!{Leash:[]}, limit=1, sort=nearest] Leash.UUID set from entity @s UUID
+execute if entity @e[type=ender_pearl, distance=..3,predicate=victordepths:itemtagnbtleash_spell] run data modify entity @e[distance=0.1.., type=!#victordepths:inanimate, type=!minecraft:player, predicate=!victordepths:leashed, limit=1, sort=nearest] Leash.UUID set from entity @s UUID
 ## finding spell
 execute if entity @e[type=ender_pearl, distance=..3,predicate=victordepths:itemtagnbtfinding_spell] run loot give @s loot victordepths:magic_map
 ## compass spell
@@ -64,4 +64,4 @@ execute if entity @e[type=ender_pearl, distance=..3,predicate=victordepths:itemt
 ## fireball spell
 execute if entity @e[type=ender_pearl, distance=..3,predicate=victordepths:itemtagnbtfireball_spell] run summon fireball ~ ~1 ~ {Tags:[vcd_spellfire],ExplosionPower:10}
 ## wrap it up
-execute as @e[type=ender_pearl, distance=..3] if data entity @s Item.tag.nbt run kill @s
+execute as @e[type=ender_pearl, distance=..3] if data entity @s Item.components."minecraft:custom_data".nbt run kill @s
