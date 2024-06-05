@@ -31,7 +31,7 @@ execute if entity @e[type=ender_pearl, distance=..3,predicate=victordepths:itemt
 ## pheromone spell
 execute if entity @e[type=ender_pearl, distance=..3,predicate=victordepths:itemtagnbtpheromone_spell] run tag @e[type=!#victordepths:inanimate, type=!#victordepths:zombie_team, distance=0.01..5] add vcd_victim
 execute if entity @e[type=ender_pearl, distance=..3,predicate=victordepths:itemtagnbtpheromone_spell] at @e[type=#victordepths:zombie_team, distance=..64] run summon snowball ~ ~2.5 ~ {Tags:[vcd_agro], Motion:[0.0d,-0.2d,0.0d]}
-execute at @e[tag=vcd_victim] run particle minecraft:dust 1 0.2 0 3 ~ ~0.5 ~ 1 1 1 1 20 normal
+execute at @e[tag=vcd_victim] run particle minecraft:dust{color:[1.0,0.2,0.0], scale:3} ~ ~0.5 ~ 1 1 1 1 20 normal
 execute as @e[tag=vcd_agro] at @s run data modify entity @s Owner set from entity @e[tag=vcd_victim, limit=1, sort=nearest] UUID
 tag @e[tag=vcd_victim] remove vcd_victim
 ## pack spell
