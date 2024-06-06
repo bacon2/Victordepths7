@@ -9,7 +9,7 @@
                     "offsetY": 0,
                     "predicate": {
                         "block": {
-                            "tag":"victordepths:fluids"
+                            "blocks":"#victordepths:fluids"
                         }
                     }
                 },
@@ -18,7 +18,7 @@
                     "offsetY": 1,
                     "predicate": {
                         "block": {
-                            "tag":"victordepths:fluids"
+                            "blocks":"#victordepths:fluids"
                         }
                     }
                 },
@@ -27,7 +27,7 @@
                     "offsetY": 2,
                     "predicate": {
                         "block": {
-                            "tag":"victordepths:fluids"
+                            "blocks":"#victordepths:fluids"
                         }
                     }
                 },
@@ -36,7 +36,7 @@
                     "offsetY": 3,
                     "predicate": {
                         "block": {
-                            "tag":"victordepths:fluids"
+                            "blocks":"#victordepths:fluids"
                         }
                     }
                 },
@@ -157,7 +157,7 @@
                     "offsetY": 0,
                     "predicate": {
                         "block": {
-                            "tag":"victordepths:fluids"
+                            "blocks":"#victordepths:fluids"
                         }
                     }
                 },
@@ -166,7 +166,7 @@
                     "offsetY": 1,
                     "predicate": {
                         "block": {
-                            "tag":"victordepths:fluids"
+                            "blocks":"#victordepths:fluids"
                         }
                     }
                 },
@@ -175,7 +175,7 @@
                     "offsetY": 2,
                     "predicate": {
                         "block": {
-                            "tag":"victordepths:fluids"
+                            "blocks":"#victordepths:fluids"
                         }
                     }
                 },
@@ -184,7 +184,7 @@
                     "offsetY": 3,
                     "predicate": {
                         "block": {
-                            "tag":"victordepths:fluids"
+                            "blocks":"#victordepths:fluids"
                         }
                     }
                 },

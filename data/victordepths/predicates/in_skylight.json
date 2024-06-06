@@ -18,2800 +18,2800 @@
         "condition": "minecraft:location_check",
         "offsetY": 2,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 3,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 4,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 5,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 6,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 7,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 8,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 9,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 10,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 11,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 12,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 13,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 14,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 15,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 16,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 17,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 18,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 19,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 20,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 21,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 22,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 23,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 24,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 25,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 26,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 27,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 28,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 29,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 30,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 31,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 32,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 33,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 34,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 35,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 36,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 37,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 38,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 39,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":40,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":41,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":42,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":43,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":44,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":45,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":46,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":47,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":48,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":49,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":50,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":51,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":52,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":53,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":54,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":55,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":56,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":57,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":58,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":59,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":60,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":61,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":62,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":63,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":64,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":65,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":66,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":67,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":68,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":69,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":70,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":71,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":72,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":73,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":74,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":75,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":76,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":77,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":78,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":79,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":80,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":81,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":82,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":83,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":84,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":85,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":86,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":87,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":88,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":89,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":90,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":91,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":92,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":93,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":94,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":95,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":96,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":97,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":98,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":99,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":100,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition":"minecraft:location_check",
         "offsetY":101,
         "predicate":{
-            "tag":"#victordepths:clear"
+            "blocks":"#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 102,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 103,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 104,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 105,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 106,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 107,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 108,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 109,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 110,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 111,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 112,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 113,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 114,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 115,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 116,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 117,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 118,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 119,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 120,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 121,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 122,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 123,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 124,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 125,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 126,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 127,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 128,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 129,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 130,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 131,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 132,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 133,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 134,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 135,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 136,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 137,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 138,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 139,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 140,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 141,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 142,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 143,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 144,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 145,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 146,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 147,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 148,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 149,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 150,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 151,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 152,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 153,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 154,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 155,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 156,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 157,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 158,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 159,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 160,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 161,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 162,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 163,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 164,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 165,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 166,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 167,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 168,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 169,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 170,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 171,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 172,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 173,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 174,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 175,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 176,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 177,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 178,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 179,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 180,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 181,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 182,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 183,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 184,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 185,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 186,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 187,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 188,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 189,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 190,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 191,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 192,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 193,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 194,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 195,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 196,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 197,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 198,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 199,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 200,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 201,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 202,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 203,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 204,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 205,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 206,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 207,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 208,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 209,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 210,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 211,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 212,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 213,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 214,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 215,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 216,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 217,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 218,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 219,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 220,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 221,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 222,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 223,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 224,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 225,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 226,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 227,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 228,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 229,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 230,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 231,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 232,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 233,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 234,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 235,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 236,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 237,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 238,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 239,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 240,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 241,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 242,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 243,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 244,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 245,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 246,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 247,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 248,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 249,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 250,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 251,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 252,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 253,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 254,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 255,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 256,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 257,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 258,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 259,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 260,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 261,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 262,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 263,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 264,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 265,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 266,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 267,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 268,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 269,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 270,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 271,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 272,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 273,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 274,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 275,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 276,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 277,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 278,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 279,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 280,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 281,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 282,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 283,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 284,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 285,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 286,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 287,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 288,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 289,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 290,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 291,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 292,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 293,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 294,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 295,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 296,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 297,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 298,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 299,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 300,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 301,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 302,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 303,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 304,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 305,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 306,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 307,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 308,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 309,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 310,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 311,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 312,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 313,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 314,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 315,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 316,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 317,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 318,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 319,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 320,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 321,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 322,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 323,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 324,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 325,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 326,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 327,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 328,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 329,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 330,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 331,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 332,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 333,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 334,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 335,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 336,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 337,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 338,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 339,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 340,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 341,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 342,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 343,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 344,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 345,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 346,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 347,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 348,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 349,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 350,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 351,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 352,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 353,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 354,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 355,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 356,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 357,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 358,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 359,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 360,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 361,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 362,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 363,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 364,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 365,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 366,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 367,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 368,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 369,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 370,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 371,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 372,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 373,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 374,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 375,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 376,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 377,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 378,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 379,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 380,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 381,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 382,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 383,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 384,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 385,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 386,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 387,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 388,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 389,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 390,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 391,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 392,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 393,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 394,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 395,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 396,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 397,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 398,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 399,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 400,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     },
     {
         "condition": "minecraft:location_check",
         "offsetY": 401,
         "predicate": {
-            "tag": "#victordepths:clear"
+            "blocks": "#victordepths:clear"
         }
     }
 ]

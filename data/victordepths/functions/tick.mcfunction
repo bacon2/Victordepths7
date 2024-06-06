@@ -16,7 +16,7 @@ execute as @a unless entity @s[scores={vcd_oldplayer=1}] at @s run function vict
 execute as @a[predicate=victordepths:in_nether] at @s if block ~ ~ ~ minecraft:nether_portal run scoreboard players set @s time_here 2
 execute as @a[predicate=victordepths:in_end] at @s if block ~ ~ ~ minecraft:end_portal run scoreboard players set @s time_here 2
 execute as @a[predicate=victordepths:in_end] at @s if block ~ ~-1 ~ minecraft:end_portal run scoreboard players set @s time_here 2
-execute as @e[tag=vcd_base, sort=random, limit=1] at @s if loaded ~ ~ ~ run function victordepths:make_sure
+#execute as @e[tag=vcd_base, sort=random, limit=1] at @s if loaded ~ ~ ~ run function victordepths:make_sure
 ## particles
 execute as @e[tag=vcd_portal] at @s run function victordepths:portal_particle
 ## spells

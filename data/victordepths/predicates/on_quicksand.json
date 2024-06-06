@@ -1,20 +1,21 @@
-[{
-    "condition": "minecraft:location_check",
-    "offsetY": -1,
-    "predicate": {
-        "block": {
-            "blocks": [
-                "minecraft:clay"
-            ]
+[
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:clay"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "blocks": "#victordepths:permeable"
+            }
         }
     }
-},
-{
-    "condition": "minecraft:location_check",
-    "predicate": {
-        "block": {
-            "tag":"victordepths:permeable"
-        }
-    }
-}
 ]
