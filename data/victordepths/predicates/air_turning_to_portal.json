@@ -11,40 +11,193 @@
         "condition": "minecraft:any_of",
         "terms": [
             {
-                "condition": "minecraft:location_check",
-                "offsetX": 1,
-                "predicate": {
-                    "block": {
-                        "blocks": "#victordepths:portal_block"
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetX": 2,
+                        "predicate": {
+                            "block": {
+                                "blocks": "#victordepths:flat_portal_block"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetX": -2,
+                        "predicate": {
+                            "block": {
+                                "blocks": "#victordepths:flat_portal_block"
+                            }
+                        }
                     }
-                }
+                ]
             },
             {
-                "condition": "minecraft:location_check",
-                "offsetX": -1,
-                "predicate": {
-                    "block": {
-                        "blocks": "#victordepths:portal_block"
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetX": 3,
+                        "predicate": {
+                            "block": {
+                                "blocks": "#victordepths:flat_portal_block"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetX": -1,
+                        "predicate": {
+                            "block": {
+                                "blocks": "#victordepths:flat_portal_block"
+                            }
+                        }
                     }
-                }
+                ]
             },
             {
-                "condition": "minecraft:location_check",
-                "offsetZ": 1,
-                "predicate": {
-                    "block": {
-                        "blocks": "#victordepths:portal_block"
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetX": 1,
+                        "predicate": {
+                            "block": {
+                                "blocks": "#victordepths:flat_portal_block"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetX": -3,
+                        "predicate": {
+                            "block": {
+                                "blocks": "#victordepths:flat_portal_block"
+                            }
+                        }
                     }
-                }
+                ]
             },
             {
-                "condition": "minecraft:location_check",
-                "offsetZ": -1,
-                "predicate": {
-                    "block": {
-                        "blocks": "#victordepths:portal_block"
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:any_of",
+                                "terms": [
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "offsetY": 3,
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "#victordepths:tall_portal_block"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "offsetY": -1,
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "#victordepths:tall_portal_block"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "condition": "minecraft:any_of",
+                                "terms": [
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "offsetY": 2,
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "#victordepths:tall_portal_block"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "offsetY": -2,
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "#victordepths:tall_portal_block"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "condition": "minecraft:any_of",
+                                "terms": [
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "offsetY": 1,
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "#victordepths:tall_portal_block"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "offsetY": -3,
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "#victordepths:tall_portal_block"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:location_check",
+                                "offsetX": 1,
+                                "predicate": {
+                                    "block": {
+                                        "blocks": "#victordepths:tall_portal_block"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:location_check",
+                                "offsetX": -1,
+                                "predicate": {
+                                    "block": {
+                                        "blocks": "#victordepths:tall_portal_block"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:location_check",
+                                "offsetZ": 1,
+                                "predicate": {
+                                    "block": {
+                                        "blocks": "#victordepths:tall_portal_block"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:location_check",
+                                "offsetZ": -1,
+                                "predicate": {
+                                    "block": {
+                                        "blocks": "#victordepths:tall_portal_block"
+                                    }
+                                }
+                            }
+                        ]
                     }
-                }
+                ]
             }
         ]
     }
