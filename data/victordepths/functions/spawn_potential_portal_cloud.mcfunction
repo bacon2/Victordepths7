@@ -27,7 +27,7 @@ summon marker ~-1 ~1 ~-1 {Tags:[vcd_potential]}
 summon marker ~-1 ~1 ~ {Tags:[vcd_potential]}
 summon marker ~-1 ~1 ~1 {Tags:[vcd_potential]}
 summon marker ~ ~1 ~-1 {Tags:[vcd_potential]}
-summon marker ~ ~1 ~ {Tags:[vcd_potential, vcd_base]}
+summon marker ~ ~1 ~ {Tags:[vcd_potential]}
 summon marker ~ ~1 ~1 {Tags:[vcd_potential]}
 summon marker ~1 ~1 ~-1 {Tags:[vcd_potential]}
 summon marker ~1 ~1 ~ {Tags:[vcd_potential]}
@@ -36,7 +36,7 @@ summon marker ~-1 ~2 ~-1 {Tags:[vcd_potential]}
 summon marker ~-1 ~2 ~ {Tags:[vcd_potential]}
 summon marker ~-1 ~2 ~1 {Tags:[vcd_potential]}
 summon marker ~ ~2 ~-1 {Tags:[vcd_potential]}
-summon marker ~ ~2 ~ {Tags:[vcd_potential, vcd_base]}
+summon marker ~ ~2 ~ {Tags:[vcd_potential]}
 summon marker ~ ~2 ~1 {Tags:[vcd_potential]}
 summon marker ~1 ~2 ~-1 {Tags:[vcd_potential]}
 summon marker ~1 ~2 ~ {Tags:[vcd_potential]}

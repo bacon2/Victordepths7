@@ -1,5 +1,5 @@
 ## important game mechanics
-execute as @a[scores={vcd_light=1..}] at @s run function victordepths:fire_detection
+execute as @a[scores={vcd_light=1..}] at @s run function victordepths:lit_portal_detection
 scoreboard players reset @a vcd_light
 execute as @a[tag=vcd_in_portal, scores={time_here=80..}] at @s if entity @e[type=marker, tag=vcd_portal, distance=1..] unless entity @e[tag=vcd_portal, distance=..1.5] run tag @s remove vcd_in_portal
 execute as @a[scores={time_here=..1}] at @s run tag @s add vcd_in_portal
@@ -16,7 +16,7 @@ execute as @a unless entity @s[scores={vcd_oldplayer=1}] at @s run function vict
 execute as @a[predicate=victordepths:in_nether] at @s if block ~ ~ ~ minecraft:nether_portal run scoreboard players set @s time_here 2
 execute as @a[predicate=victordepths:in_end] at @s if block ~ ~ ~ minecraft:end_portal run scoreboard players set @s time_here 2
 execute as @a[predicate=victordepths:in_end] at @s if block ~ ~-1 ~ minecraft:end_portal run scoreboard players set @s time_here 2
-#execute as @e[tag=vcd_base, sort=random, limit=1] at @s if loaded ~ ~ ~ run function victordepths:make_sure
+execute as @e[tag=vcd_base, sort=random, limit=1] at @s if loaded ~ ~ ~ run function victordepths:make_sure
 ## particles
 execute as @e[tag=vcd_portal] at @s run function victordepths:portal_particle
 ## spells
