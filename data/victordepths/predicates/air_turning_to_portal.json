@@ -83,6 +83,52 @@
                 "condition": "minecraft:all_of",
                 "terms": [
                     {
+                        "condition": "minecraft:location_check",
+                        "offsetX": 1,
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:ochre_froglight"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetX": -1,
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:ochre_froglight"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetZ": 1,
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:ochre_froglight"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetZ": -1,
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:ochre_froglight"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
                         "condition": "minecraft:any_of",
                         "terms": [
                             {

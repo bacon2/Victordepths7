@@ -51,5 +51,6 @@ execute if predicate victordepths:on_sanctuary_portal run tag @e[tag=vcd_potenti
 execute if predicate victordepths:on_weatherkeep_portal run tag @e[tag=vcd_potential] add weatherkeep_portal
 execute if predicate victordepths:on_uncharted_portal run tag @e[tag=vcd_potential] add uncharted_portal
 kill @e[tag=vcd_potential, predicate=!victordepths:air_turning_to_portal]
+tag @e[tag=vcd_potential] add vcd_portal
 execute as @e[tag=vcd_potential] run function victordepths:portal_here
 tag @e[tag=vcd_potential] remove vcd_potential
