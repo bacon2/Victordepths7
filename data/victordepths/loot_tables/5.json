@@ -79,8 +79,29 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{custom_potion_effects: [{duration: 9999, id: weakness, amplifier: 5s}, {duration: 9999, id: resistance, amplifier: 5s}], CustomPotionColor: 0, display: {Name: '{\"text\":\"Potion of Pacifism\", \"italic\":\"false\"}'}}"
+                            "components": {
+                              "minecraft:potion_contents": {
+                                "custom_effects": [
+                                    {
+                                        "id":"minecraft:weakness",
+                                        "duration": 9999,
+                                        "amplifier": 5
+                                    },
+                                    {
+                                        "id":"minecraft:resistance",
+                                        "duration": 9999,
+                                        "amplifier": 5
+                                    }
+                                ],
+                                "custom_color": 16777215
+                              }
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Potion of Pacifism"
                         }
                     ]
                 },

@@ -1,113 +1,262 @@
 {
-    "type": "chest",
-     "pools": [
-      {
-        "rolls": 2,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "functions": [
-             {
-               "function": "minecraft:set_count",
-               "count": {
-                 "min": 30,
-                 "max": 64,
-                 "type": "minecraft:uniform"
-               }
-             },
-             {
-                "function": "set_custom_data",
-                "tag": "{display: {Italics: 0b, Name: '{\"text\":\"Paper Towel\", \"italic\":\"false\"}'}}"
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 30,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Paper Towel"
             }
-           ],
-           "name": "minecraft:paper"
-         }
-      ]
-     },
-      {
-        "rolls": 4,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "functions": [
-             {
-              "function": "set_custom_data",
-              "tag": "{custom_potion_effects: [{duration: 200, id: strength, amplifier: 4}, {duration: 200, id: wither, amplifier: 2}], CustomPotionColor: 16711680, display: {Name: '{\"text\":\"Concentrated Red Vinegar\", \"italic\":\"false\"}'}}"
-            }
-           ],
-           "name": "minecraft:potion"
-         },
-         {
-          "type": "minecraft:item",
-          "functions": [
-           {
-            "function": "set_custom_data",
-            "tag": "{custom_potion_effects: [{duration: 1000, id: poison, amplifier: 10}, {duration: 1000, id: blindness, amplifier: 2}], CustomPotionColor: 255, display: {Italics: 0b, Name: '{\"text\":\"Toilet Cleaner\", \"italic\":\"false\"}'}}"
-          }
-         ],
-         "name": "minecraft:splash_potion"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-           {
-            "function": "set_custom_data",
-            "tag": "{custom_potion_effects: [{duration: 200, id: hunger, amplifier: 0}], CustomPotionColor: 13158500, display: {Italics: 0b, Name: '{\"text\":\"Cookiedough Air Freshener\", \"italic\":\"false\"}'}}"
-          }
-         ],
-         "name": "minecraft:lingering_potion"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-           {
-            "function": "set_custom_data",
-            "tag": "{custom_potion_effects: [{duration: 2000, id: poison, amplifier: 0},{duration: 2000, id: blindness, amplifier: 0}], CustomPotionColor: 16777215, display: {Italics: 0b, Name: '{\"text\":\"Stain Remover\", \"italic\":\"false\"}'}}"
-          }
-         ],
-         "name": "minecraft:lingering_potion"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-           {
-            "function": "set_custom_data",
-            "tag": "{custom_potion_effects: [{duration: 1000, id: weakness, amplifier: 2},{duration: 700, id: nausea, amplifier: 10}, {duration: 1100, id: slowness, amplifier: 127}], CustomPotionColor: 25600, display: {Italics: 0b, Name: '{\"text\":\"Weed Killer\", \"italic\":\"false\"}'}}"
-          }
-         ],
-         "name": "minecraft:lingering_potion"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-           {
-            "function": "set_custom_data",
-            "tag": "{custom_potion_effects: [{duration: 50, id: wither, amplifier: 0}, {duration: 1000, id: blindness, amplifier: 0}], CustomPotionColor: 7452847, display: {Italics: 0b, Name: '{\"text\":\"Cleaning Product\", \"italic\":\"false\"}'}}"
-          }
-         ],
-         "name": "minecraft:splash_potion"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-           {
-            "function": "set_custom_data",
-            "tag": "{custom_potion_effects: [{duration: 1000, id: slowness, amplifier: 10}, {duration: 1000, id: wither, amplifier: 2}, {duration: 1000, id: blindness, amplifier: 127}, {duration: 1000, id: jump_boost, amplifier: 128}], CustomPotionColor: 0, display: {Italics: 0b, Name: '{\"text\":\"Keep Out of Reach of Children\", \"italic\":\"false\"}'}}"
-          }
-         ],
-         "name": "minecraft:splash_potion"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-           {
-            "function": "set_custom_data",
-            "tag": "{custom_potion_effects: [{duration: 1000, id: regeneration, amplifier: 127}, {duration: 1000, id: instant_health, amplifier: 128}], CustomPotionColor: 7452847, display: {Italics: 0b, Name: '{\"text\":\"Penicillin\", \"italic\":\"false\"}'}}"
-          }
-         ],
-         "name": "minecraft:splash_potion"
+          ],
+          "name": "minecraft:paper"
         }
-        ]
-     }
-   ]
-  }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "duration": 200,
+                      "amplifier": 4
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "duration": 200,
+                      "amplifier": 2
+                    }
+                  ],
+                  "custom_color": 16711680
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Concentrated Red Vinegar"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "duration": 1000,
+                      "amplifier": 10
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "duration": 1000,
+                      "amplifier": 0
+                    }
+                  ],
+                  "custom_color": 255
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Toilet Cleaner"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:hunger",
+                      "duration": 200,
+                      "amplifier": 0
+                    }
+                  ],
+                  "custom_color": 13158500
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Cookiedough Air Freshener"
+            }
+          ],
+          "name": "minecraft:lingering_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "duration": 2000,
+                      "amplifier": 0
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "duration": 2000,
+                      "amplifier": 0
+                    }
+                  ],
+                  "custom_color": 16777215
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Stain Remover"
+            }
+          ],
+          "name": "minecraft:lingering_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "duration": 1000,
+                      "amplifier": 2
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "duration": 700,
+                      "amplifier": 2
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "duration": 1100,
+                      "amplifier": 127
+                    }
+                  ],
+                  "custom_color": 25600
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Weed Killer"
+            }
+          ],
+          "name": "minecraft:lingering_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "duration": 1000,
+                      "amplifier": 2
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "duration": 1000,
+                      "amplifier": 10
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "duration": 1000,
+                      "amplifier": 2
+                    }
+                    ,
+                    {
+                      "id": "minecraft:darkness",
+                      "duration": 1000,
+                      "amplifier": 0
+                    }
+                  ],
+                  "custom_color": 0
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Keep Out of Reach of Children"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "duration": 1000,
+                      "amplifier": 127
+                    },
+                    {
+                      "id": "minecraft:instant_health",
+                      "duration": 1000,
+                      "amplifier": 128
+                    }
+                  ],
+                  "custom_color": 7452847
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Penicillin"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        }
+      ]
+    }
+  ]
+}

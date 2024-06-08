@@ -1,71 +1,89 @@
 {
-    "type": "chest",
-     "pools": [
-      {
-        "rolls": 6,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "functions": [
-             {
-              "function": "set_custom_data",
-              "tag": "{Potion:\"minecraft:strong_healing\"}"
-            }
-           ],
-           "name": "minecraft:potion"
-         },
-         {
-          "type": "minecraft:item",
-          "functions": [
-           {
-            "function": "set_custom_data",
-            "tag": "{Potion:\"minecraft:strong_healing\"}"
-          }
-         ],
-         "name": "minecraft:splash_potion"
-        },
-         {
-          "type": "minecraft:item",
-          "functions": [
-           {
-            "function": "set_custom_data",
-            "tag": "{Potion:\"minecraft:long_regeneration\"}"
-          }
-         ],
-         "name": "minecraft:potion"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-           {
-            "function": "set_custom_data",
-            "tag": "{Potion:\"minecraft:long_regeneration\"}"
-          }
-         ],
-         "name": "minecraft:splash_potion"
-        }
-        ]
-     },
-     {
-      "rolls": 3,
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 6,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
-         ],
-         "name": "minecraft:golden_apple"
-       },
-       {
-        "type": "minecraft:item",
-        "functions": [
-         {
-          "function": "set_custom_data",
-          "tag": "{Potion:\"minecraft:weakness\"}"
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "duration": 1000,
+                      "amplifier": 127
+                    },
+                    {
+                      "id": "minecraft:instant_health",
+                      "duration": 1000,
+                      "amplifier": 128
+                    }
+                  ],
+                  "custom_color": 7452847
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Penicillin"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion":"minecraft:strong_healing"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion":"minecraft:long_regeneration"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:splash_potion"
         }
-       ],
-       "name": "minecraft:splash_potion"
-      }
       ]
-   }
-   ]
-  }
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_custom_data",
+              "tag": "{Potion:\"minecraft:weakness\"}"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        }
+      ]
+    }
+  ]
+}

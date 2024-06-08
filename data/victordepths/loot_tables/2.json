@@ -108,8 +108,12 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{Potion: \"minecraft:invisibility\"}"
+                            "components": {
+                              "minecraft:potion_contents": {
+                                "potion": "minecraft:invisibility"
+                              }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },

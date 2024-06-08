@@ -10,16 +10,12 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1,
-                                "type": "minecraft:uniform"
-                            }
-                        },
-                        {
-                            "function": "set_custom_data",
-                            "tag": "{Potion:\"minecraft:invisibility\"}"
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:invisibility"
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -27,15 +23,13 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:saddle",
-                    "functions": [
-                    ]
+                    "functions": []
                 },
                 {
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:dark_oak_boat",
-                    "functions": [
-                    ]
+                    "functions": []
                 },
                 {
                     "type": "item",
@@ -126,8 +120,24 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{custom_potion_effects: [{duration: 999, id: resistance, amplifier: 4s}], CustomPotionColor: 16777215, display: {Name: '{\"text\":\"49 Second Immortality\", \"italic\":\"false\"}'}}"
+                            "components": {
+                              "minecraft:potion_contents": {
+                                "custom_effects": [
+                                    {
+                                        "id": "minecraft:resistance",
+                                        "duration": 999,
+                                        "amplifier": 4
+                                    }
+                                ],
+                                "custom_color": 16777215
+                              }
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "49 Second Immortality"
                         }
                     ]
                 },
@@ -146,7 +156,7 @@
                         },
                         {
                             "function": "set_custom_data",
-                            "tag":"{RepairCost: 0, display: {Name: '{\"text\":\"Loot Horse\"}'}, EntityTag: {Tags:[\"vcd_horseshoe\"],Tame:1b,ArmorItems:[{id:\"leather_boots\",Count:1b,tag:{Enchantments:[{id:\"frost_walker\",lvl:2}]}},{},{},{}]}}"
+                            "tag": "{RepairCost: 0, display: {Name: '{\"text\":\"Loot Horse\"}'}, EntityTag: {Tags:[\"vcd_horseshoe\"],Tame:1b,ArmorItems:[{id:\"leather_boots\",Count:1b,tag:{Enchantments:[{id:\"frost_walker\",lvl:2}]}},{},{},{}]}}"
                         }
                     ]
                 }

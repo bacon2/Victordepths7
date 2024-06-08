@@ -10,8 +10,12 @@
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{Potion: \"minecraft:weakness\"}"
+                            "components": {
+                              "minecraft:potion_contents": {
+                                "potion": "minecraft:weakness"
+                              }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },

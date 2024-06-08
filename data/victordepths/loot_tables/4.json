@@ -15,7 +15,7 @@
                                 "min": 1,
                                 "max": 1,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -30,7 +30,7 @@
                                 "min": 1,
                                 "max": 1,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -45,7 +45,7 @@
                                 "min": 4,
                                 "max": 7,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -53,9 +53,7 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:totem_of_undying",
-                    "functions": [
-                        
-                    ]
+                    "functions": []
                 },
                 {
                     "type": "item",
@@ -63,8 +61,24 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{custom_potion_effects: [{duration: 999, id: resistance, amplifier: 4s}], CustomPotionColor: 16777215, display: {Name: '{\"text\":\"49 Second Immortality\", \"italic\":\"false\"}'}}"
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:resistance",
+                                            "duration": 999,
+                                            "amplifier": 4
+                                        }
+                                    ],
+                                    "custom_color": 16777215
+                                }
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "49 Second Immortality"
                         }
                     ]
                 },
@@ -79,7 +93,7 @@
                                 "min": 1,
                                 "max": 2,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -90,7 +104,7 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 3s, id: \"minecraft:unbreaking\"}]}"
+                            "tag": "{StoredEnchantments: [{lvl: 3s, id: \"minecraft:unbreaking\"}]}"
                         }
                     ]
                 },
@@ -101,7 +115,7 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 4s, id: \"minecraft:sharpness\"}]}"
+                            "tag": "{StoredEnchantments: [{lvl: 4s, id: \"minecraft:sharpness\"}]}"
                         }
                     ]
                 },
@@ -112,7 +126,7 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 4s, id: \"minecraft:efficiency\"}]}"
+                            "tag": "{StoredEnchantments: [{lvl: 4s, id: \"minecraft:efficiency\"}]}"
                         }
                     ]
                 },
@@ -123,7 +137,7 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 3s, id: \"minecraft:looting\"}]}"
+                            "tag": "{StoredEnchantments: [{lvl: 3s, id: \"minecraft:looting\"}]}"
                         }
                     ]
                 },
@@ -134,7 +148,7 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 3s, id: \"minecraft:fortune\"}]}"
+                            "tag": "{StoredEnchantments: [{lvl: 3s, id: \"minecraft:fortune\"}]}"
                         }
                     ]
                 },
@@ -149,11 +163,11 @@
                                 "min": 1,
                                 "max": 12,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         },
                         {
                             "function": "set_custom_data",
-                            "tag":"{RepairCost: 0, display: {Name: '{\"text\":\"Loot Horse\"}'}, EntityTag: {Tags:[\"vcd_horseshoe\"],Tame:1b,ArmorItems:[{id:\"leather_boots\",Count:1b,tag:{Enchantments:[{id:\"frost_walker\",lvl:2}]}},{},{},{}]}}"
+                            "tag": "{RepairCost: 0, display: {Name: '{\"text\":\"Loot Horse\"}'}, EntityTag: {Tags:[\"vcd_horseshoe\"],Tame:1b,ArmorItems:[{id:\"leather_boots\",Count:1b,tag:{Enchantments:[{id:\"frost_walker\",lvl:2}]}},{},{},{}]}}"
                         }
                     ]
                 }

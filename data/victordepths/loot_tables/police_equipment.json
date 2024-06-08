@@ -46,8 +46,12 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "set_custom_data",
-              "tag": "{Potion:\"minecraft:strong_slowness\"}"
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strong_slowness"
+                }
+              },
+              "function": "minecraft:set_components"
             }
           ],
           "name": "minecraft:splash_potion"
@@ -97,7 +101,7 @@
     },
     {
       "rolls": 1,
-      "bonus_rolls":1,
+      "bonus_rolls": 1,
       "conditions": [
         {
           "condition": "random_chance",
