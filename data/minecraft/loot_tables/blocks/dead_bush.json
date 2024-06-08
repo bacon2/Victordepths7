@@ -33,7 +33,18 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{nbt:\"victortart\", Enchantments: [{}], display: {Name: '{\"text\":\"Victortart\", \"italic\":\"false\"}'}}"
+              "tag": "{nbt:\"victortart\"}"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Victortart"
+            },
+            {
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              },
+              "function": "minecraft:set_components"
             }
           ],
           "name": "minecraft:sweet_berries",

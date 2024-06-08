@@ -53,7 +53,7 @@
     },
     {
       "rolls": 3,
-      "bonus_rolls":1,
+      "bonus_rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -231,8 +231,12 @@
           ],
           "functions": [
             {
-              "function": "set_custom_data",
-              "tag": "{Enchantments: [{lvl: 5s, id: \"minecraft:projectile_protection\"}, {lvl: 10s, id: \"minecraft:piercing\"}], display: {Lore: ['{\"text\":\"Dont fear the griefer\"}'], Name: '{\"text\":\"Ultimate Bullet-Proof Vest\", \"italic\":\"false\", \"color\":\"purple\"}'}}"
+              "components": {
+                "enchantments": {
+                  "projectile_protection": 10
+                }
+              },
+              "function": "minecraft:set_components"
             },
             {
               "function": "minecraft:set_damage",
@@ -241,6 +245,11 @@
                 "max": 1.0,
                 "type": "minecraft:uniform"
               }
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Ultimate Bullet-Proof Vest"
             }
           ],
           "name": "minecraft:chainmail_chestplate"

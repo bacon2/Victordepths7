@@ -40,8 +40,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 1s, id: \"minecraft:multishot\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "multishot":1
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -134,8 +138,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 5s, id: \"minecraft:sharpness\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "sharpness":5
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -145,8 +153,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 1s, id: \"minecraft:mending\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "mending":1
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -156,8 +168,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 3s, id: \"minecraft:unbreaking\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "unbreaking":3
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -167,8 +183,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 5s, id: \"minecraft:piercing\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "piercing":5
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 }

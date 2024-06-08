@@ -15,11 +15,11 @@
                                 "min": 32,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         },
                         {
-                            "function":"set_custom_data",
-                            "tag":"{Fireworks: {Flight: 1b, Explosions: [{Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}]}}"
+                            "function": "set_custom_data",
+                            "tag": "{Fireworks: {Flight: 1b, Explosions: [{Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}, {Type: 1b, Colors: [I; 14602026]}]}}"
                         }
                     ]
                 },
@@ -34,7 +34,7 @@
                                 "min": 1,
                                 "max": 12,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -49,7 +49,7 @@
                                 "min": 1,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -64,7 +64,7 @@
                                 "min": 1,
                                 "max": 12,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -74,38 +74,35 @@
                     "name": "minecraft:milk_bucket",
                     "functions": [
                         {
-                            "function":"set_custom_data",
-                            "tag":"{display:{Name:'{\"text\":\"Hog Milk\", \"italic\":\"false\"}'}}"
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Hog Milk"
                         }
                     ]
                 },
                 {
                     "conditions": [
                         {
-                          "condition": "random_chance",
-                          "chance": 0.05
+                            "condition": "random_chance",
+                            "chance": 0.05
                         }
-                      ],
+                    ],
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:diamond_sword",
-                    "functions": [
-                        
-                    ]
+                    "functions": []
                 },
                 {
                     "conditions": [
                         {
-                          "condition": "random_chance",
-                          "chance": 0.5
+                            "condition": "random_chance",
+                            "chance": 0.5
                         }
-                      ],
+                    ],
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:diamond_axe",
-                    "functions": [
-                        
-                    ]
+                    "functions": []
                 }
             ]
         }

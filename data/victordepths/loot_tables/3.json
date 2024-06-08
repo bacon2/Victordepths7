@@ -11,9 +11,9 @@
                     "functions": [
                         {
                             "components": {
-                              "minecraft:potion_contents": {
-                                "potion": "minecraft:weakness"
-                              }
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:weakness"
+                                }
                             },
                             "function": "minecraft:set_components"
                         }
@@ -23,22 +23,19 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:brewing_stand",
-                    "functions": [
-                    ]
+                    "functions": []
                 },
                 {
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:budding_amethyst",
-                    "functions": [
-                    ]
+                    "functions": []
                 },
                 {
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:saddle",
-                    "functions": [
-                    ]
+                    "functions": []
                 },
                 {
                     "type": "item",
@@ -51,7 +48,7 @@
                                 "min": 1,
                                 "max": 3,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -66,7 +63,7 @@
                                 "min": 1,
                                 "max": 6,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -81,7 +78,7 @@
                                 "min": 1,
                                 "max": 2,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -91,8 +88,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 1s, id: \"minecraft:mending\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "mending": 1
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -107,7 +108,7 @@
                                 "min": 1,
                                 "max": 3,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -122,7 +123,7 @@
                                 "min": 1,
                                 "max": 4,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -137,7 +138,7 @@
                                 "min": 10,
                                 "max": 12,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -152,7 +153,7 @@
                                 "min": 8,
                                 "max": 12,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 }

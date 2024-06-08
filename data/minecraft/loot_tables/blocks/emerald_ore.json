@@ -48,13 +48,24 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{nbt:\"forbodine\", Enchantments: [{}], display: {Name: '{\"text\":\"Forbodine\", \"italic\":\"false\"}'}}",
+              "tag": "{nbt:\"forbodine\"}",
               "conditions": [
                 {
                   "condition": "minecraft:reference",
                   "name": "victordepths:in_forebodium"
                 }
               ]
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Forbodine"
+            },
+            {
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              },
+              "function": "minecraft:set_components"
             }
           ],
           "name": "minecraft:emerald",

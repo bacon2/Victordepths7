@@ -9,7 +9,12 @@
             "functions": [
              {
                 "function": "set_custom_data",
-                "tag": "{nbt:\"death\",display: {Name: '{\"text\":\"Totem of Dying\", \"italic\":\"false\"}'}}"
+                "tag": "{nbt:\"death\"}"
+            },
+            {
+                "function": "set_name",
+                "target": "item_name",
+                "name": "Totem of Dying"
             }
            ],
            "name": "minecraft:totem_of_undying"

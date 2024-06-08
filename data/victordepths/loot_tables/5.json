@@ -126,8 +126,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 5s, id: \"minecraft:efficiency\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "efficiency":5
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -137,8 +141,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 2s, id: \"minecraft:fire_aspect\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "fire_aspect":2
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -148,8 +156,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{StoredEnchantments: [{lvl: 3s, id: \"minecraft:fortune\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "fortune":3
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -168,7 +180,18 @@
                         },
                         {
                             "function": "set_custom_data",
-                            "tag":"{nbt:\"forbodine\", Enchantments: [{}], display: {Name: '{\"text\":\"Forbodine\", \"italic\":\"false\"}'}}"
+                            "tag":"{nbt:\"forbodine\"}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Forbodine"
+                        },
+                        {
+                          "components": {
+                            "minecraft:enchantment_glint_override": true
+                          },
+                          "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -178,8 +201,12 @@
                     "name": "minecraft:golden_pickaxe",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{Enchantments: [{lvl: 4s, id: \"minecraft:fortune\"}]}"
+                            "components": {
+                                "enchantments": {
+                                    "fortune":4
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -189,8 +216,12 @@
                     "name": "minecraft:golden_axe",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{Enchantments: [{lvl: 4s, id: \"minecraft:fortune\"}]}"
+                            "components": {
+                                "enchantments": {
+                                    "fortune":4
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -200,8 +231,12 @@
                     "name": "minecraft:golden_helmet",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{Enchantments: [{lvl: 4s, id: \"minecraft:respiration\"}]}"
+                            "components": {
+                                "enchantments": {
+                                    "respiration":4
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -211,8 +246,12 @@
                     "name": "minecraft:golden_boots",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag":"{Enchantments: [{lvl: 4s, id: \"minecraft:soul_speed\"}]}"
+                            "components": {
+                                "enchantments": {
+                                    "soul_speed":4
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },

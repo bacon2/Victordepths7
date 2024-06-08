@@ -154,6 +154,11 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": "{SkullOwner:\"MHF_Villager\", display:{Name:'{\"text\":\"Villager Head\",\"italic\":\"false\",\"color\":\"white\"}'}}"
+            },
+            {
+                "function": "set_name",
+                "target": "item_name",
+                "name": "Villager Head"
             }
           ],
           "name": "minecraft:player_head"

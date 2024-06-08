@@ -38,13 +38,24 @@
             },
             {
               "function": "set_custom_data",
-              "tag":"{nbt:\"magic_kelp\",Enchantments:[{}],display:{Name:'{\"text\":\"Enchanted Kelp\",\"italic\":\"false\"}'}}",
+              "tag":"{nbt:\"magic_kelp\"}",
               "conditions": [
                 {
                   "condition": "minecraft:reference",
                   "name": "victordepths:in_great_aquifer"
                 }
               ]
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Enchanted Kelp"
+            },
+            {
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              },
+              "function": "minecraft:set_components"
             }
           ],
           "name": "minecraft:dried_kelp",

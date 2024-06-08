@@ -48,13 +48,24 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{nbt:\"heaven_gold\",Enchantments: [{}], display: {Name: '{\"text\":\"Heaven Gold\", \"italic\":\"false\"}'}}",
+              "tag": "{nbt:\"heaven_gold\"}",
               "conditions": [
                 {
                   "condition": "minecraft:reference",
                   "name": "victordepths:in_aweclouds"
                 }
               ]
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Heaven Gold"
+            },
+            {
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              },
+              "function": "minecraft:set_components"
             }
           ],
           "name": "minecraft:raw_gold",

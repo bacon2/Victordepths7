@@ -11,9 +11,9 @@
                     "functions": [
                         {
                             "components": {
-                              "minecraft:potion_contents": {
-                                "potion":"minecraft:water_breathing"
-                              }
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:water_breathing"
+                                }
                             },
                             "function": "minecraft:set_components"
                         }
@@ -79,7 +79,18 @@
                         },
                         {
                             "function": "set_custom_data",
-                            "tag": "{nbt:\"melting_snowball\", Enchantments: [{}], display: {Name: '{\"text\":\"Melting Snowball\", \"italic\":\"false\"}'}}"
+                            "tag": "{nbt:\"melting_snowball\"}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Melting Snowball"
+                        },
+                        {
+                            "components": {
+                                "minecraft:enchantment_glint_override": true
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 }
@@ -108,8 +119,12 @@
                             }
                         },
                         {
-                            "function": "set_custom_data",
-                            "tag": "{Enchantments:[{id:\"minecraft:looting\", lvl:2}]}"
+                            "components": {
+                                "enchantments": {
+                                    "looting":2
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },

@@ -15,11 +15,22 @@
                                 "min": 1,
                                 "max": 12,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         },
                         {
-                            "function":"set_custom_data",
-                            "tag":"{nbt:\"heaven_gold\",Enchantments: [{}], display: {Name: '{\"text\":\"Heaven Gold\", \"italic\":\"false\"}'}}"
+                            "function": "set_custom_data",
+                            "tag": "{nbt:\"heaven_gold\"}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Heavenly Snowshovel"
+                        },
+                        {
+                            "components": {
+                                "minecraft:enchantment_glint_override": true
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -27,8 +38,7 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:golden_apple",
-                    "functions": [
-                    ]
+                    "functions": []
                 },
                 {
                     "type": "item",
@@ -41,7 +51,7 @@
                                 "min": 1,
                                 "max": 6,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 }
@@ -61,34 +71,41 @@
                                 "min": 1,
                                 "max": 12,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
                 {
                     "conditions": [
                         {
-                          "condition": "random_chance",
-                          "chance": 0.5
+                            "condition": "random_chance",
+                            "chance": 0.5
                         }
-                      ],
+                    ],
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:golden_shovel",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{Enchantments: [{}], display: {Name: '{\"text\":\"Heavenly Snowshovel\", \"italic\":\"false\"}'}}"
+                            "components": {
+                                "minecraft:enchantment_glint_override": true
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Heavenly Snowshovel"
                         }
                     ]
                 },
                 {
                     "conditions": [
                         {
-                          "condition": "random_chance",
-                          "chance": 0.04
+                            "condition": "random_chance",
+                            "chance": 0.04
                         }
-                      ],
+                    ],
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:end_crystal",
@@ -99,15 +116,15 @@
                                 "min": 1,
                                 "max": 2,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 }
             ]
         },
         {
-            "rolls":2,
-            "entries":[
+            "rolls": 2,
+            "entries": [
                 {
                     "type": "item",
                     "weight": 1,
@@ -119,7 +136,7 @@
                                 "min": 1,
                                 "max": 2,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -134,7 +151,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -149,7 +166,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -164,7 +181,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -179,7 +196,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -194,7 +211,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -209,7 +226,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -224,7 +241,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -239,7 +256,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -254,7 +271,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -269,7 +286,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -284,7 +301,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -299,7 +316,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -314,7 +331,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -329,7 +346,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -344,7 +361,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -359,7 +376,7 @@
                                 "min": 64,
                                 "max": 64,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 }

@@ -103,8 +103,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{StoredEnchantments: [{lvl: 3s, id: \"minecraft:unbreaking\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "unbreaking":3
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -114,8 +118,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{StoredEnchantments: [{lvl: 4s, id: \"minecraft:sharpness\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "sharpness":4
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -125,8 +133,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{StoredEnchantments: [{lvl: 4s, id: \"minecraft:efficiency\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "efficiency":4
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -136,8 +148,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{StoredEnchantments: [{lvl: 3s, id: \"minecraft:looting\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "looting":3
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -147,8 +163,12 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{StoredEnchantments: [{lvl: 3s, id: \"minecraft:fortune\"}]}"
+                            "components": {
+                                "stored_enchantments": {
+                                    "fortune":3
+                                }
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -167,7 +187,12 @@
                         },
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, display: {Name: '{\"text\":\"Loot Horse\"}'}, EntityTag: {Tags:[\"vcd_horseshoe\"],Tame:1b,ArmorItems:[{id:\"leather_boots\",Count:1b,tag:{Enchantments:[{id:\"frost_walker\",lvl:2}]}},{},{},{}]}}"
+                            "tag": "{RepairCost: 0, EntityTag: {Tags:[\"vcd_horseshoe\"],Tame:1b,ArmorItems:[{id:\"leather_boots\",count:1,components:{\"minecraft:enchantments\":{\"minecraft:frost_walker\":2}}},{},{},{}]}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Loot Horse"
                         }
                     ]
                 }

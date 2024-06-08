@@ -1,61 +1,61 @@
 {
-    "type": "chest",
-     "pools": [
-       {
-         "rolls": 5,
-         "entries": [
-           {
-             "type": "minecraft:item",
-             "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0,
-                  "max": 20,
-                  "type": "minecraft:uniform"
-                }
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 20,
+                "type": "minecraft:uniform"
               }
-            ],
-            "name": "minecraft:string"
-          }
-       ]
-      },
-      {
-        "rolls": 4,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "functions": [
-             {
-               "function": "minecraft:set_count",
-               "count": {
-                 "min": 0,
-                 "max": 64,
-                 "type": "minecraft:uniform"
-               }
-             }
-           ],
-           "name": "minecraft:rotten_flesh"
-         }
+            }
+          ],
+          "name": "minecraft:string"
+        }
       ]
-     },
-     {
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        }
+      ]
+    },
+    {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
-           {
-             "function": "minecraft:set_count",
-             "count": {
-               "min": 0,
-               "max": 64,
-               "type": "minecraft:uniform"
-             }
-           }
-         ],
-         "name": "minecraft:glass_bottle"
-       }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:glass_bottle"
+        }
       ]
     },
     {
@@ -70,21 +70,21 @@
           ],
           "type": "minecraft:item",
           "functions": [
-          {
-            "function": "minecraft:enchant_randomly"
-          },
-          {
-            "function": "minecraft:set_damage",
-            "damage": {
-              "min": 0.8,
-              "max": 1.0,
-              "type": "minecraft:uniform"
+            {
+              "function": "minecraft:enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.8,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
             }
-          }
-        ],
-        "name": "minecraft:stone_axe"
-      }
-     ]
+          ],
+          "name": "minecraft:stone_axe"
+        }
+      ]
     },
     {
       "rolls": 1,
@@ -98,21 +98,21 @@
           ],
           "type": "minecraft:item",
           "functions": [
-          {
-            "function": "minecraft:enchant_randomly"
-          },
-          {
-            "function": "minecraft:set_damage",
-            "damage": {
-              "min": 0.6,
-              "max": 1.0,
-              "type": "minecraft:uniform"
+            {
+              "function": "minecraft:enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.6,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
             }
-          }
-        ],
-        "name": "minecraft:iron_shovel"
-      }
-    ]
+          ],
+          "name": "minecraft:iron_shovel"
+        }
+      ]
     },
     {
       "rolls": 1,
@@ -126,21 +126,21 @@
           ],
           "type": "minecraft:item",
           "functions": [
-          {
-            "function": "minecraft:enchant_randomly"
-          },
-          {
-            "function": "minecraft:set_damage",
-            "damage": {
-              "min": 0.8,
-              "max": 1.0,
-              "type": "minecraft:uniform"
+            {
+              "function": "minecraft:enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.8,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
             }
-          }
-        ],
-        "name": "minecraft:shears"
-      }
-    ]
+          ],
+          "name": "minecraft:shears"
+        }
+      ]
     },
     {
       "rolls": 1,
@@ -148,21 +148,21 @@
         {
           "type": "minecraft:item",
           "functions": [
-          {
-            "function": "minecraft:enchant_randomly"
-          },
-          {
-            "function": "minecraft:set_damage",
-            "damage": {
-              "min": 0.3,
-              "max": 1.0,
-              "type": "minecraft:uniform"
+            {
+              "function": "minecraft:enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.3,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
             }
-          }
-        ],
-        "name": "minecraft:leather_boots"
-      }
-    ]
+          ],
+          "name": "minecraft:leather_boots"
+        }
+      ]
     },
     {
       "rolls": 1,
@@ -170,27 +170,27 @@
         {
           "type": "minecraft:item",
           "function": "minecraft:set_count",
-                "count": {
-                  "min": 0,
-                  "max": 20,
-                  "type": "minecraft:uniform"
-                },
-        "name": "minecraft:dirt"
-      }
-    ]
+          "count": {
+            "min": 0,
+            "max": 20,
+            "type": "minecraft:uniform"
+          },
+          "name": "minecraft:dirt"
+        }
+      ]
     },
     {
       "rolls": 5,
       "entries": [
         {
-        "conditions": [
-          {
-            "condition": "random_chance",
-            "chance": 0.1
-          }
-        ],
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.1
+            }
+          ],
           "type": "minecraft:loot_table",
-          "weight":1,
+          "weight": 1,
           "value": "victordepths:food"
         }
       ]
@@ -207,17 +207,27 @@
           ],
           "type": "minecraft:item",
           "functions": [
-          {
-            "function": "minecraft:enchant_randomly"
-          },
-          {
-            "function": "minecraft:set_custom_data",
-            "tag":"{Enchantments: [{lvl: 4, id: \"minecraft:smite\"}, {lvl: 2, id: \"minecraft:knockback\"}], display: {Lore: ['{\"text\":\"Hope found among the trash\"}'], Name: '{\"text\":\"Ultimate Dumpster Bone\", \"italic\":\"false\", \"color\":\"purple\"}'}}"
-          }
-        ],
-        "name": "minecraft:bone"
-      }
-    ]
+            {
+              "function": "minecraft:enchant_randomly"
+            },
+            {
+              "components": {
+                "enchantments": {
+                  "smite": 4,
+                  "knockback": 2
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Ultimate Dumpster Bone"
+            }
+          ],
+          "name": "minecraft:bone"
+        }
+      ]
     }
-   ]
-  }
+  ]
+}

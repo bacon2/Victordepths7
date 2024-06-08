@@ -48,13 +48,24 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{nbt:\"soul_coal\", Enchantments: [{}], display: {Name: '{\"text\":\"Soul Coal\", \"italic\":\"false\"}'}}",
+              "tag": "{nbt:\"soul_coal\"}",
               "conditions": [
                 {
                   "condition": "minecraft:reference",
                   "name": "victordepths:in_underworld"
                 }
               ]
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Soul Coal"
+            },
+            {
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              },
+              "function": "minecraft:set_components"
             }
           ],
           "name": "minecraft:coal",

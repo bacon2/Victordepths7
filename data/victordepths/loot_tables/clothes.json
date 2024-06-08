@@ -11,7 +11,12 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 16707231, Name: '{\"text\":\"Blonde Wig\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 16707231}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Blonde Wig"
                         }
                     ]
                 },
@@ -22,7 +27,12 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 16351261, Name: '{\"text\":\"Red Wig\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 16351261}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Red Wig"
                         }
                     ]
                 },
@@ -33,7 +43,12 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 3221541, Name: '{\"text\":\"Black Wig\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 3221541}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Black Wig"
                         }
                     ]
                 },
@@ -44,7 +59,12 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 6964782, Name: '{\"text\":\"Brown Wig\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 6964782}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Brown Wig"
                         }
                     ]
                 }
@@ -60,7 +80,12 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 2659450, Name: '{\"text\":\"Shirt\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 2659450}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Shirt"
                         }
                     ]
                 },
@@ -71,7 +96,12 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 1908001, Name: '{\"text\":\"Shirt\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 1908001}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Shirt"
                         }
                     ]
                 },
@@ -82,7 +112,12 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 16383998, Name: '{\"text\":\"Shirt\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 16383998}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Shirt"
                         }
                     ]
                 },
@@ -93,7 +128,12 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 15308591, Name: '{\"text\":\"Shirt\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 15308591}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Shirt"
                         }
                     ]
                 }
@@ -109,7 +149,12 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 2644058, Name: '{\"text\":\"Pants\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 2644058}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Pants"
                         }
                     ]
                 },
@@ -120,7 +165,12 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 9022894, Name: '{\"text\":\"Pants\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 9022894}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Pants"
                         }
                     ]
                 },
@@ -131,7 +181,12 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 3290681, Name: '{\"text\":\"Pants\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 3290681}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Pants"
                         }
                     ]
                 },
@@ -142,7 +197,12 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 13864494, Name: '{\"text\":\"Pants\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 13864494}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Pants"
                         }
                     ]
                 }
@@ -158,7 +218,7 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 4148763, Name: '{\"text\":\"Boots\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 4148763}}"
                         }
                     ]
                 },
@@ -169,7 +229,7 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 15961002, Name: '{\"text\":\"Boots\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 15961002}}"
                         }
                     ]
                 },
@@ -180,7 +240,7 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 16383998, Name: '{\"text\":\"Boots\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 16383998}}"
                         }
                     ]
                 },
@@ -191,7 +251,7 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 14129300, Name: '{\"text\":\"Boots\"}'}}"
+                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 14129300}}"
                         }
                     ]
                 }

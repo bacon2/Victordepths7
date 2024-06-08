@@ -113,8 +113,18 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "set_custom_data",
-              "tag": "{Enchantments: [{lvl: 5s, id: \"minecraft:quick_charge\"}, {lvl: 10s, id: \"minecraft:piercing\"}], display: {Lore: ['{\"text\":\"Not today zombies.\"}'], Name: '{\"text\":\"Ultimate Crossbow\", \"italic\":\"false\", \"color\":\"purple\"}'}}"
+              "components": {
+                "stored_enchantments": {
+                  "quick_charge": 5,
+                  "piercing": 10
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Ultimate Crossbow"
             }
           ],
           "name": "minecraft:crossbow"
