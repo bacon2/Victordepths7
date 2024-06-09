@@ -1,0 +1,46 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:skeleton_horse_spawn_egg",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "skeleton_horse",
+                                    "ArmorItems": [
+                                        {
+                                            "id": "leather_boots",
+                                            "components": {
+                                                "enchantments": {
+                                                    "frost_walker": 2
+                                                }
+                                            }
+                                        },
+                                        {},
+                                        {},
+                                        {}
+                                    ],
+                                    "Tame": 1,
+                                    "SaddleItem": {
+                                        "id": "saddle"
+                                    }
+                                }
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Loot Horse"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

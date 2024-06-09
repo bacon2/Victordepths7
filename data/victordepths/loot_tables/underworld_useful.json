@@ -138,9 +138,8 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "minecraft:skeleton_horse_spawn_egg",
                     "functions": [
                         {
                             "function": "set_count",
@@ -149,12 +148,9 @@
                                 "max": 12,
                                 "type": "minecraft:uniform"
                             }
-                        },
-                        {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, display: {Name: '{\"text\":\"Loot Horse\"}'}, EntityTag: {Tags:[\"vcd_horseshoe\"],Tame:1b,ArmorItems:[{id:\"leather_boots\",Count:1b,tag:{Enchantments:[{id:\"frost_walker\",lvl:2}]}},{},{},{}]}}"
                         }
-                    ]
+                    ],
+                    "value": "victordepths:single/loot_horse"
                 }
             ]
         }

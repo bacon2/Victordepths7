@@ -10,8 +10,10 @@
                     "name": "minecraft:leather_helmet",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 16707231}}"
+                            "components": {
+                                "minecraft:dyed_color": 16707231
+                            },
+                            "function": "minecraft:set_components"
                         },
                         {
                             "function": "set_name",
@@ -26,8 +28,10 @@
                     "name": "minecraft:leather_helmet",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 16351261}}"
+                            "components": {
+                                "minecraft:dyed_color": 16351261
+                            },
+                            "function": "minecraft:set_components"
                         },
                         {
                             "function": "set_name",
@@ -42,8 +46,10 @@
                     "name": "minecraft:leather_helmet",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 3221541}}"
+                            "components": {
+                                "minecraft:dyed_color": 3221541
+                            },
+                            "function": "minecraft:set_components"
                         },
                         {
                             "function": "set_name",
@@ -58,8 +64,10 @@
                     "name": "minecraft:leather_helmet",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 6964782}}"
+                            "components": {
+                                "minecraft:dyed_color": 6964782
+                            },
+                            "function": "minecraft:set_components"
                         },
                         {
                             "function": "set_name",
@@ -79,8 +87,10 @@
                     "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 2659450}}"
+                            "components": {
+                                "minecraft:dyed_color": 2659450
+                            },
+                            "function": "minecraft:set_components"
                         },
                         {
                             "function": "set_name",
@@ -95,8 +105,10 @@
                     "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 1908001}}"
+                            "components": {
+                                "minecraft:dyed_color": 1908001
+                            },
+                            "function": "minecraft:set_components"
                         },
                         {
                             "function": "set_name",
@@ -111,8 +123,10 @@
                     "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 16383998}}"
+                            "components": {
+                                "minecraft:dyed_color": 16383998
+                            },
+                            "function": "minecraft:set_components"
                         },
                         {
                             "function": "set_name",
@@ -127,8 +141,10 @@
                     "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 15308591}}"
+                            "components": {
+                                "minecraft:dyed_color": 15308591
+                            },
+                            "function": "minecraft:set_components"
                         },
                         {
                             "function": "set_name",
@@ -148,8 +164,10 @@
                     "name": "minecraft:leather_leggings",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 2644058}}"
+                            "components": {
+                                "minecraft:dyed_color": 2644058
+                            },
+                            "function": "minecraft:set_components"
                         },
                         {
                             "function": "set_name",
@@ -164,8 +182,10 @@
                     "name": "minecraft:leather_leggings",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 9022894}}"
+                            "components": {
+                                "minecraft:dyed_color": 9022894
+                            },
+                            "function": "minecraft:set_components"
                         },
                         {
                             "function": "set_name",
@@ -180,8 +200,10 @@
                     "name": "minecraft:leather_leggings",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 3290681}}"
+                            "components": {
+                                "minecraft:dyed_color": 3290681
+                            },
+                            "function": "minecraft:set_components"
                         },
                         {
                             "function": "set_name",
@@ -196,8 +218,10 @@
                     "name": "minecraft:leather_leggings",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 13864494}}"
+                            "components": {
+                                "minecraft:dyed_color": 13864494
+                            },
+                            "function": "minecraft:set_components"
                         },
                         {
                             "function": "set_name",
@@ -217,8 +241,10 @@
                     "name": "minecraft:leather_boots",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 4148763}}"
+                            "components": {
+                                "minecraft:dyed_color": 4148763
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -228,8 +254,10 @@
                     "name": "minecraft:leather_boots",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 15961002}}"
+                            "components": {
+                                "minecraft:dyed_color": 15961002
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -239,8 +267,10 @@
                     "name": "minecraft:leather_boots",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 16383998}}"
+                            "components": {
+                                "minecraft:dyed_color": 16383998
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -250,8 +280,10 @@
                     "name": "minecraft:leather_boots",
                     "functions": [
                         {
-                            "function": "set_custom_data",
-                            "tag": "{RepairCost: 0, Damage: 0, display: {color: 14129300}}"
+                            "components": {
+                                "minecraft:dyed_color": 14129300
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 }

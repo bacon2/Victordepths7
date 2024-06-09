@@ -123,21 +123,6 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 48,
-                                "max": 64,
-                                "type": "minecraft:uniform"
-                              }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:enchanted_book",
-                    "functions": [
-                        {
                             "components": {
                                 "stored_enchantments": {
                                     "sharpness":5

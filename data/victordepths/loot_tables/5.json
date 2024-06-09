@@ -15,7 +15,7 @@
                                 "min": 1,
                                 "max": 1,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -30,7 +30,7 @@
                                 "min": 1,
                                 "max": 1,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -45,7 +45,7 @@
                                 "min": 1,
                                 "max": 1,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -60,7 +60,7 @@
                                 "min": 1,
                                 "max": 1,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         },
                         {
                             "function": "minecraft:enchant_randomly"
@@ -80,21 +80,21 @@
                     "functions": [
                         {
                             "components": {
-                              "minecraft:potion_contents": {
-                                "custom_effects": [
-                                    {
-                                        "id":"minecraft:weakness",
-                                        "duration": 9999,
-                                        "amplifier": 5
-                                    },
-                                    {
-                                        "id":"minecraft:resistance",
-                                        "duration": 9999,
-                                        "amplifier": 5
-                                    }
-                                ],
-                                "custom_color": 16777215
-                              }
+                                "minecraft:potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:weakness",
+                                            "duration": 9999,
+                                            "amplifier": 5
+                                        },
+                                        {
+                                            "id": "minecraft:resistance",
+                                            "duration": 9999,
+                                            "amplifier": 5
+                                        }
+                                    ],
+                                    "custom_color": 16777215
+                                }
                             },
                             "function": "minecraft:set_components"
                         },
@@ -116,7 +116,7 @@
                                 "min": 1,
                                 "max": 12,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 },
@@ -128,7 +128,7 @@
                         {
                             "components": {
                                 "stored_enchantments": {
-                                    "efficiency":5
+                                    "efficiency": 5
                                 }
                             },
                             "function": "minecraft:set_components"
@@ -143,7 +143,7 @@
                         {
                             "components": {
                                 "stored_enchantments": {
-                                    "fire_aspect":2
+                                    "fire_aspect": 2
                                 }
                             },
                             "function": "minecraft:set_components"
@@ -158,7 +158,7 @@
                         {
                             "components": {
                                 "stored_enchantments": {
-                                    "fortune":3
+                                    "fortune": 3
                                 }
                             },
                             "function": "minecraft:set_components"
@@ -176,11 +176,11 @@
                                 "min": 1,
                                 "max": 6,
                                 "type": "minecraft:uniform"
-                                }
+                            }
                         },
                         {
                             "function": "set_custom_data",
-                            "tag":"{nbt:\"forbodine\"}"
+                            "tag": "{nbt:\"forbodine\"}"
                         },
                         {
                             "function": "set_name",
@@ -188,10 +188,10 @@
                             "name": "Forbodine"
                         },
                         {
-                          "components": {
-                            "minecraft:enchantment_glint_override": true
-                          },
-                          "function": "minecraft:set_components"
+                            "components": {
+                                "minecraft:enchantment_glint_override": true
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ]
                 },
@@ -203,7 +203,7 @@
                         {
                             "components": {
                                 "enchantments": {
-                                    "fortune":4
+                                    "fortune": 4
                                 }
                             },
                             "function": "minecraft:set_components"
@@ -218,7 +218,7 @@
                         {
                             "components": {
                                 "enchantments": {
-                                    "fortune":4
+                                    "fortune": 4
                                 }
                             },
                             "function": "minecraft:set_components"
@@ -233,7 +233,7 @@
                         {
                             "components": {
                                 "enchantments": {
-                                    "respiration":4
+                                    "respiration": 4
                                 }
                             },
                             "function": "minecraft:set_components"
@@ -248,7 +248,7 @@
                         {
                             "components": {
                                 "enchantments": {
-                                    "soul_speed":4
+                                    "soul_speed": 4
                                 }
                             },
                             "function": "minecraft:set_components"
@@ -256,15 +256,9 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "minecraft:elytra",
-                    "functions": [
-                        {
-                            "function": "set_custom_data",
-                            "tag":"{nbt: \"splash_lander\", display: {Name: '{\"text\":\"Splash Landing Elytra\",\"italic\":\"false\"}'}}"
-                        }
-                    ]
+                    "value": "victordepths:single/splash_landing_elytra"
                 },
                 {
                     "type": "item",
@@ -277,7 +271,7 @@
                                 "min": 1,
                                 "max": 1,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         }
                     ]
                 }

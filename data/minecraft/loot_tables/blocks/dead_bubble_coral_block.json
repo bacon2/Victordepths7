@@ -7,7 +7,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "value": "victordepths:single/weatherrack",
+          "value": "victordepths:single/cloudstone",
           "conditions": [
             {
               "condition": "minecraft:reference",

@@ -15,11 +15,21 @@
                                 "min": 1,
                                 "max": 10,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         },
                         {
-                            "function":"set_custom_data",
-                            "tag":"{Fireworks: {Flight: 1b, Explosions: [{Type: 1b, Colors: [I; 14602026]}]}}"
+                            "function": "set_fireworks",
+                            "explosions": {
+                                "values": [
+                                    {
+                                        "shape": "large_ball",
+                                        "colors": [
+                                            14602026
+                                        ]
+                                    }
+                                ],
+                                "mode": "append"
+                            }
                         }
                     ]
                 },
@@ -34,11 +44,24 @@
                                 "min": 1,
                                 "max": 10,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         },
                         {
-                            "function":"set_custom_data",
-                            "tag":"{Fireworks: {Flight: 1b, Explosions: [{Type: 2b, Colors: [I; 8073150], FadeColors: [I; 11743532]}]}}"
+                            "function": "set_fireworks",
+                            "explosions": {
+                                "values": [
+                                    {
+                                        "shape": "star",
+                                        "colors": [
+                                            8073150
+                                        ],
+                                        "fade_colors": [
+                                            11743532
+                                        ]
+                                    }
+                                ],
+                                "mode": "append"
+                            }
                         }
                     ]
                 },
@@ -53,11 +76,30 @@
                                 "min": 1,
                                 "max": 10,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         },
                         {
-                            "function":"set_custom_data",
-                            "tag":"{Fireworks: {Flight: 1b, Explosions: [{Type: 1b, Colors: [I; 3887386]}, {Type: 3b, Colors: [I; 14602026], FadeColors: [I; 4312372]}]}}"
+                            "function": "set_fireworks",
+                            "explosions": {
+                                "values": [
+                                    {
+                                        "shape": "small_ball",
+                                        "colors": [
+                                            3887386
+                                        ]
+                                    },
+                                    {
+                                        "shape": "star",
+                                        "colors": [
+                                            14602026
+                                        ],
+                                        "fade_colors": [
+                                            4312372
+                                        ]
+                                    }
+                                ],
+                                "mode": "append"
+                            }
                         }
                     ]
                 },
@@ -72,11 +114,52 @@
                                 "min": 1,
                                 "max": 10,
                                 "type": "minecraft:uniform"
-                              }
+                            }
                         },
                         {
-                            "function":"set_custom_data",
-                            "tag":"{Fireworks: {Flight: 2b, Explosions: [{Type: 0b, Trail: 1b, Colors: [I; 2651799]}, {Type: 2b, Colors: [I; 8073150]}, {Type: 3b, Colors: [I; 12801229]}, {Type: 0b, Colors: [I; 11743532]}, {Type: 1b, Colors: [I; 8073150]}, {Type: 0b, Colors: [I; 2437522]}]}}"
+                            "function": "set_fireworks",
+                            "explosions": {
+                                "values": [
+                                    {
+                                        "shape": "small_ball",
+                                        "colors": [
+                                            2651799
+                                        ],
+                                        "trail": true
+                                    },
+                                    {
+                                        "shape": "star",
+                                        "colors": [
+                                            8073150
+                                        ]
+                                    },
+                                    {
+                                        "shape": "burst",
+                                        "colors": [
+                                            12801229
+                                        ]
+                                    },
+                                    {
+                                        "shape": "small_ball",
+                                        "colors": [
+                                            11743532
+                                        ]
+                                    },
+                                    {
+                                        "shape": "large_ball",
+                                        "colors": [
+                                            8073150
+                                        ]
+                                    },
+                                    {
+                                        "shape": "small_ball",
+                                        "colors": [
+                                            2437522
+                                        ]
+                                    }
+                                ],
+                                "mode": "append"
+                            }
                         }
                     ]
                 }
