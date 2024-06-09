@@ -5,80 +5,35 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:emerald_ore",
+          "value": "victordepths:single/forbodine",
           "conditions": [
             {
               "condition": "minecraft:reference",
-              "name": "victordepths:irongrade_pickaxe"
+              "name": "victordepths:in_forebodium"
             },
             {
               "condition": "minecraft:reference",
-              "name": "victordepths:silk_touch"
+              "name": "victordepths:irongrade_pickaxe"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "ore_drops"
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{nbt:\"forbodine\"}",
-              "conditions": [
-                {
-                  "condition": "minecraft:reference",
-                  "name": "victordepths:in_forebodium"
-                }
-              ]
-            },
-            {
-              "function": "set_name",
-              "target": "item_name",
-              "name": "Forbodine"
-            },
-            {
-              "components": {
-                "minecraft:enchantment_glint_override": true
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "name": "minecraft:emerald",
+          "value": "minecraft:blocks/vanilla/emerald_ore",
           "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "victordepths:irongrade_pickaxe"
-            },
             {
               "condition": "minecraft:inverted",
               "term": {
-                "condition":"minecraft:reference",
-                "name":"victordepths:silk_touch"
+                "condition": "minecraft:reference",
+                "name": "victordepths:in_forebodium"
               }
             }
           ]

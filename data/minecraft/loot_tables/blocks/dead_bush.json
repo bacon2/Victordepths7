@@ -5,22 +5,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 2,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:stick"
-        },
-        {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 1,
           "functions": [
             {
@@ -30,30 +15,25 @@
                 "max": 3,
                 "type": "minecraft:uniform"
               }
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{nbt:\"victortart\"}"
-            },
-            {
-              "function": "set_name",
-              "target": "item_name",
-              "name": "Victortart"
-            },
-            {
-              "components": {
-                "minecraft:enchantment_glint_override": true
-              },
-              "function": "minecraft:set_components"
             }
           ],
-          "name": "minecraft:sweet_berries",
+          "value": "victordepths:single/victortart",
           "conditions": [
             {
               "condition": "minecraft:reference",
               "name": "victordepths:in_victordepths"
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "minecraft:blocks/vanilla/dead_bush"
         }
       ]
     }

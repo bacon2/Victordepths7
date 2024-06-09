@@ -88,9 +88,8 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "minecraft:coal",
                     "functions": [
                         {
                             "function": "set_count",
@@ -99,23 +98,9 @@
                                 "max": 64,
                                 "type": "minecraft:uniform"
                             }
-                        },
-                        {
-                            "function": "set_custom_data",
-                            "tag": "{nbt:\"soul_coal\"}"
-                        },
-                        {
-                            "function": "set_name",
-                            "target": "item_name",
-                            "name": "Soul Coal"
-                        },
-                        {
-                          "components": {
-                            "minecraft:enchantment_glint_override": true
-                          },
-                          "function": "minecraft:set_components"
                         }
-                    ]
+                    ],
+                    "value": "victordepths:single/soul_coal"
                 },
                 {
                     "type": "item",
@@ -157,10 +142,8 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:lodestone",
-                    "functions": [
-                        
-                    ],
-                    "conditions":[
+                    "functions": [],
+                    "conditions": [
                         {
                             "condition": "random_chance",
                             "chance": 0.2
@@ -171,9 +154,7 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:totem_of_undying",
-                    "functions": [
-                        
-                    ],
+                    "functions": [],
                     "conditions": [
                         {
                             "condition": "random_chance",

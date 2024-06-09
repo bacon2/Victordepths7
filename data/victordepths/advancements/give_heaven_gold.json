@@ -5,7 +5,7 @@
       "conditions": {
         "item": {
           "components": {
-            "custom_data": {"nbt":"heavengold"}
+            "custom_data": {"nbt":"heaven_gold"}
           }
         },
         "entity": {

@@ -7,7 +7,7 @@
       }
     },
     "title": "Attitude of Gratitude",
-    "description": "Throw heavengold at a Piglin"
+    "description": "Throw heaven gold at a Piglin"
   },
   "criteria": {
     "gave_gold": {
@@ -15,7 +15,7 @@
       "conditions": {
         "item": {
           "components": {
-            "custom_data": {"nbt":"heavengold"}
+            "custom_data": {"nbt":"heaven_gold"}
           }
         },
         "entity": {
