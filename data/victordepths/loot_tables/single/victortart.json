@@ -23,13 +23,7 @@
               "function": "minecraft:set_components"
             }
           ],
-          "name": "minecraft:sweet_berries",
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "victordepths:in_victordepths"
-            }
-          ]
+          "name": "minecraft:sweet_berries"
         }
       ]
     }
