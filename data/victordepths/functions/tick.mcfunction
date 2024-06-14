@@ -1,4 +1,7 @@
 ## important game mechanics
+execute store result score music vcd_time run time query gametime
+scoreboard players operation music vcd_time %= 1000 vcd_constant
+execute if score music vcd_time matches 69 as @a at @s run function victordepths:music/music
 execute as @a[scores={vcd_light=1..}] at @s run function victordepths:lit_portal_detection
 scoreboard players reset @a vcd_light
 execute as @a[tag=vcd_in_portal, scores={time_here=80..}] at @s if entity @e[type=marker, tag=vcd_portal, distance=1..] unless entity @e[tag=vcd_portal, distance=..1.5] run tag @s remove vcd_in_portal
