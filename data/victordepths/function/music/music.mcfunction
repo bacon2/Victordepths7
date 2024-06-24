@@ -1,5 +1,5 @@
 execute unless predicate victordepths:in_overworld unless predicate victordepths:in_nether unless predicate victordepths:in_end run function victordepths:music/stop_vanilla_music
-execute unless predicate victordepths:in_overworld unless predicate victordepths:in_nether unless predicate victordepths:in_end run stopsound @s stop_vanilla_music
+execute unless predicate victordepths:in_overworld unless predicate victordepths:in_nether unless predicate victordepths:in_end run stopsound @s
 execute if predicate victordepths:in_aweclouds run playsound victordepths:aweclouds music @s ~ ~ ~ 100
 execute if predicate victordepths:in_fluffyfunplace run playsound victordepths:fluffyfunplace music @s ~ ~ ~ 100
 execute if predicate victordepths:in_forebodium run playsound victordepths:forebodium music @s ~ ~ ~ 100

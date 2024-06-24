@@ -1,6 +1,6 @@
 {
     "condition":"minecraft:entity_properties",
-    "entity":"killer",
+    "entity":"attacker",
     "predicate": {
         "nbt": "{Dimension:\"victordepths:the_underworld\"}"
     }

@@ -17,7 +17,7 @@
                 }
               },
               {
-                "function": "minecraft:looting_enchant",
+                "function": "minecraft:enchanted_count_increase",
                 "count": {
                   "min": 0,
                   "max": 2
